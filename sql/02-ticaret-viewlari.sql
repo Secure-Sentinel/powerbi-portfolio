@@ -1,5 +1,5 @@
 /* =====================================================================
-   TENEKA · Ticaret & satın alma view'ları
+   Test Firma A.Ş. · Ticaret & satın alma view'ları
    ---------------------------------------------------------------------
    Power BI modelindeki tablolar bu view'lardan birebir okunur; view adı
    = model tablosu adı. Rapor tarafında hiçbir join yapılmaz.

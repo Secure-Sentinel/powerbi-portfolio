@@ -1,4 +1,4 @@
-# Yurtiçi Ticaret Analizi
+# Departman Bazlı Ticaret Analizi
 
 <p align="left">
   <a href="README.en.md">🇬🇧 English</a> · <b>🇹🇷 Türkçe</b> ·
@@ -11,7 +11,7 @@ son siparişine, açık sipariş tutarından cari bakiyesine kadar tüm hikâyes
 müşteri sayısı, kalıp çeşidi, adet) yan yana koyuyor. **84 DAX ölçüsünün** çoğu bu
 YTD/LYTD karşılaştırma setini ve müşteri-kalıp kırılımlarını besliyor.
 
-Bu dosya yurtiçi versiyonu; yurtdışı ve baskılı satış raporları aynı şablonun departman filtresi
+Rapor departman kırılımlıdır: yurt içi, yurt dışı ve baskılı satış aynı şablonun departman filtresi
 değiştirilmiş kopyalarıdır.
 
 ![Sipariş & Müşteri](docs/img/01-siparis-musteri.png)
@@ -110,7 +110,7 @@ katkısı" ölçüsü tek `CALCULATE` ile yazılabiliyor ve dilimleyicide filtre
 
 ## Nasıl açılır
 
-`Yurtici Ticaret Analizi.pbip` dosyasını Power BI Desktop ile açın, **Yenile**'ye basın.
+`Departman Ticaret Analizi.pbip` dosyasını Power BI Desktop ile açın, **Yenile**'ye basın.
 Ayrıntı: [ana README](../README.md#nasıl-açılır).
 
 ## Veri hattı

@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-TENEKA Metal Ambalaj — sentetik (sahte) veri üreteci
+Test Firma A.Ş. — sentetik (sahte) veri üreteci
 ====================================================
 
 Bu depodaki dört Power BI raporunu besleyen CSV dosyalarını üretir. Üretilen
-veri tamamen kurgudur; TENEKA Metal Ambalaj A.Ş. diye bir firma yoktur. Amaç,
+veri tamamen kurgudur; Test Firma A.Ş. diye bir firma yoktur. Amaç,
 raporların modelleme ve DAX kurgusunu gerçek bir üretim/satış verisi olmadan
 gösterebilmektir.
 
-Veri, metal ambalaj (teneke kutu) üreten kurgusal bir fabrikayı modeller:
+Veri, kurgusal bir üretim işletmesini modeller:
 
     stok kartları -> siparişler -> sevkiyat/fatura (ciro) -> ödeme planı
     tedarikçiler  -> satın alma siparişleri -> mal kabul -> cari bakiye
@@ -42,7 +42,7 @@ KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # rapor klasörü -> hangi tabloların CSV'si oraya yazılacak
 RAPOR_KLASORLERI = {
     'scada': '01-scada-uretim-izleme',
-    'yurtici': '02-yurtici-ticaret-analizi',
+    'yurtici': '02-departman-ticaret-analizi',
     'satinalma': '03-satin-alma-analizi',
     'urun': '04-urun-kalip-analizi',
 }
@@ -1234,7 +1234,7 @@ def yaz(u: Uretec):
     csv_yaz(yol('scada', 'VW_DEVAM_EDEN_ISLER.csv'),
             SCADA_KOLONLAR['VW_DEVAM_EDEN_ISLER'], devam_eden_isler(u))
 
-    print('\n-- 02 Yurtiçi Ticaret --')
+    print('\n-- 02 Departman Ticaret --')
     csv_yaz(yol('yurtici', 'STOK.csv'), KOLONLAR['STOK'], u.stok)
     csv_yaz(yol('yurtici', 'CARI.csv'), KOLONLAR['CARI'], u.cari)
     csv_yaz(yol('yurtici', 'CARI_ALACAKBORC.csv'),
@@ -1267,13 +1267,13 @@ def yaz(u: Uretec):
 
 
 def main():
-    ap = argparse.ArgumentParser(description='TENEKA sentetik veri üreteci')
+    ap = argparse.ArgumentParser(description='Test Firma A.Ş. sentetik veri üreteci')
     ap.add_argument('--bugun', default=None, help='YYYY-MM-DD (varsayılan: bugün)')
     ap.add_argument('--olcek', type=float, default=1.0, help='veri hacmi çarpanı')
     a = ap.parse_args()
     bugun = (dt.date.fromisoformat(a.bugun) if a.bugun else dt.date.today())
 
-    print(f'TENEKA sentetik veri üreteci · bugün={bugun} · ölçek={a.olcek} '
+    print(f'Test Firma A.Ş. sentetik veri üreteci · bugün={bugun} · ölçek={a.olcek} '
           f'· tohum={RASTGELE_TOHUM}\n')
     u = Uretec(bugun, a.olcek)
     u.stok_uret()

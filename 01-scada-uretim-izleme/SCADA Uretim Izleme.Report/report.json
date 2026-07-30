@@ -22,8 +22,8 @@
     "items": [
      {
       "type": 100,
-      "path": "teneka-logo.png",
-      "name": "teneka-logo.png"
+      "path": "firma-logo.png",
+      "name": "firma-logo.png"
      },
      {
       "type": 100,
@@ -95,7 +95,7 @@
      "z": 1000,
      "width": 138.48406706158067,
      "height": 46.051107020040725,
-     "config": "{\"name\":\"519f8ff70d97010cb000\",\"layouts\":[{\"id\":0,\"position\":{\"height\":46.051107020040725,\"width\":138.48406706158067,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"teneka-logo.png\"}}}}}]}},\"parentGroupName\":\"89e6dc7fc276aa85dcd6\",\"howCreated\":\"InsertVisualButton\"}",
+     "config": "{\"name\":\"519f8ff70d97010cb000\",\"layouts\":[{\"id\":0,\"position\":{\"height\":46.051107020040725,\"width\":138.48406706158067,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"firma-logo.png\"}}}}}]}},\"parentGroupName\":\"89e6dc7fc276aa85dcd6\",\"howCreated\":\"InsertVisualButton\"}",
      "filters": "[]"
     },
     {
@@ -392,7 +392,7 @@
      "z": 1000,
      "width": 138.12235639652937,
      "height": 47.84102060843965,
-     "config": "{\"name\":\"aa8fb978a05701aa56db\",\"layouts\":[{\"id\":0,\"position\":{\"height\":47.84102060843965,\"width\":138.12235639652937,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"teneka-logo.png\"}}}}}]}},\"parentGroupName\":\"03c712af1b0ed89608e4\",\"howCreated\":\"InsertVisualButton\"}",
+     "config": "{\"name\":\"aa8fb978a05701aa56db\",\"layouts\":[{\"id\":0,\"position\":{\"height\":47.84102060843965,\"width\":138.12235639652937,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"firma-logo.png\"}}}}}]}},\"parentGroupName\":\"03c712af1b0ed89608e4\",\"howCreated\":\"InsertVisualButton\"}",
      "filters": "[]"
     },
     {
@@ -1010,7 +1010,7 @@
      "z": 1000,
      "width": 110.4460187717252,
      "height": 43.91418229102506,
-     "config": "{\"name\":\"66f44c790bf6d945435c\",\"layouts\":[{\"id\":0,\"position\":{\"height\":43.91418229102506,\"width\":110.4460187717252,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"teneka-logo.png\"}}}}}]}},\"parentGroupName\":\"9ee34527e45bfa00a77a\",\"howCreated\":\"InsertVisualButton\"}",
+     "config": "{\"name\":\"66f44c790bf6d945435c\",\"layouts\":[{\"id\":0,\"position\":{\"height\":43.91418229102506,\"width\":110.4460187717252,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"firma-logo.png\"}}}}}]}},\"parentGroupName\":\"9ee34527e45bfa00a77a\",\"howCreated\":\"InsertVisualButton\"}",
      "filters": "[]"
     },
     {
@@ -1148,7 +1148,7 @@
      "z": 1000,
      "width": 123.96036354717643,
      "height": 46.798029556650235,
-     "config": "{\"name\":\"005c69fe801bb9a97bb9\",\"layouts\":[{\"id\":0,\"position\":{\"height\":46.798029556650235,\"width\":123.96036354717643,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"teneka-logo.png\"}}}}}]}},\"parentGroupName\":\"a941731b3babee640a0c\",\"howCreated\":\"InsertVisualButton\"}",
+     "config": "{\"name\":\"005c69fe801bb9a97bb9\",\"layouts\":[{\"id\":0,\"position\":{\"height\":46.798029556650235,\"width\":123.96036354717643,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"firma-logo.png\"}}}}}]}},\"parentGroupName\":\"a941731b3babee640a0c\",\"howCreated\":\"InsertVisualButton\"}",
      "filters": "[]"
     },
     {
@@ -1565,7 +1565,7 @@
      "z": 1000,
      "width": 135.20210603485629,
      "height": 46.73015873015872,
-     "config": "{\"name\":\"e9f0bb876b922d251eaa\",\"layouts\":[{\"id\":0,\"position\":{\"height\":46.73015873015872,\"width\":135.20210603485629,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"teneka-logo.png\"}}}}}]}},\"parentGroupName\":\"5702009987c034938460\",\"howCreated\":\"InsertVisualButton\"}",
+     "config": "{\"name\":\"e9f0bb876b922d251eaa\",\"layouts\":[{\"id\":0,\"position\":{\"height\":46.73015873015872,\"width\":135.20210603485629,\"x\":0,\"y\":0,\"z\":1000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"firma-logo.png\"}}}}}]}},\"parentGroupName\":\"5702009987c034938460\",\"howCreated\":\"InsertVisualButton\"}",
      "filters": "[]"
     },
     {

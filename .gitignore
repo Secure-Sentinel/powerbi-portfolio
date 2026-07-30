@@ -19,6 +19,11 @@ __pycache__/
 .venv/
 venv/
 
+# --- ekran görüntüsü çalışma klasörü ---------------------------------------
+# Ham yakalamalar buraya atılır, docs/img altına adlandırılarak kopyalanır.
+ss/
+SS/
+
 # --- işletim sistemi -------------------------------------------------------
 Thumbs.db
 desktop.ini

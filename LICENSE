@@ -22,12 +22,12 @@ SOFTWARE.
 
 ---
 
-TENEKA Metal Ambalaj A.Ş. kurgusal bir firmadır. Bu depodaki tüm veriler
+Test Firma A.Ş. kurgusal bir firmadır. Bu depodaki tüm veriler
 sentetiktir (bkz. tools/veri_uret.py); marka varlıkları ve fabrika yerleşim
 çizimleri bu depo için tasarlanmış kurgusal içeriklerdir. Gerçek kişi, firma
 veya tesislerle benzerlik tesadüftür.
 
-TENEKA Metal Packaging Inc. is a fictional company. All data in this repository
+Test Firma A.Ş. is a fictional company. All data in this repository
 is synthetic (see tools/veri_uret.py); the brand assets and factory floor plans
 were created for this repository and are fictional. Any resemblance to real
 people, companies or facilities is coincidental.

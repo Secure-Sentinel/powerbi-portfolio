@@ -47,7 +47,7 @@ yükleyin.
 CREATE TABLE rpt.SIPARIS (/* kolonlar: data/SIPARIS.csv başlık satırı */);
 
 BULK INSERT rpt.SIPARIS
-FROM 'C:\repo\02-yurtici-ticaret-analizi\data\SIPARIS.csv'
+FROM 'C:\repo\02-departman-ticaret-analizi\data\SIPARIS.csv'
 WITH (FORMAT = 'CSV', FIRSTROW = 2, CODEPAGE = '65001',
       FIELDQUOTE = '"', ROWTERMINATOR = '0x0a');
 ```

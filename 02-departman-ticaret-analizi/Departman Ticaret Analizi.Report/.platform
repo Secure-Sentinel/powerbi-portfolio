@@ -1,11 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
   "metadata": {
-    "type": "SemanticModel",
-    "displayName": "Yurtici Ticaret Analizi"
+    "type": "Report",
+    "displayName": "Departman Ticaret Analizi"
   },
   "config": {
     "version": "2.0",
-    "logicalId": "648c4d3e-1449-5c46-9761-c3199ea4ce1a"
+    "logicalId": "e796e92f-ff34-590e-b543-b82187ab76a3"
   }
 }

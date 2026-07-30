@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="brand/teneka-logo.png" alt="TENEKA Metal Ambalaj" width="360">
+  <img src="brand/firma-logo.png" alt="Test Firma A.Ş." width="360">
 </p>
 
 <h1 align="center">Power BI Portföyü — Üretim & Ticaret Raporları</h1>
@@ -9,11 +9,11 @@
   <b>🇹🇷 Türkçe</b>
 </p>
 
-Bir metal ambalaj (teneke kutu) fabrikasının **üretim izleme**, **ticaret**, **satın alma**
+Kurgusal bir üretim işletmesinin **üretim izleme**, **ticaret**, **satın alma**
 ve **ürün portföyü** raporlarından oluşan dört Power BI projesi. Hepsi ERP verisiyle çalışan
 gerçek raporların yapısıdır; bu depoda **tamamen sentetik veriyle** yayınlanmıştır.
 
-> **TENEKA Metal Ambalaj A.Ş.** kurgusal bir firmadır. Bu depodaki müşteri, tedarikçi,
+> **Test Firma A.Ş.** kurgusal bir firmadır. Bu depodaki müşteri, tedarikçi,
 > sipariş, fiyat ve üretim kayıtlarının tamamı `tools/veri_uret.py` tarafından üretilmiştir;
 > hiçbir gerçek firmaya ait veri içermez. Fabrika yerleşim çizimleri de kurgudur.
 
@@ -24,7 +24,7 @@ gerçek raporların yapısıdır; bu depoda **tamamen sentetik veriyle** yayınl
 | | Proje | Ne yapıyor | Sayfa · Görsel · Ölçü |
 |---|---|---|---|
 | 🏭 | **[SCADA Üretim İzleme](01-scada-uretim-izleme/)** | Fabrika yerleşim planı üzerinde 48 makinenin anlık durumu: ne üretiyor, kaç kişiyle, hangi arızada | 6 · 175 · 16 |
-| 📈 | **[Yurtiçi Ticaret Analizi](02-yurtici-ticaret-analizi/)** | Sipariş–ciro–cari üçlüsünün departman şablonu: müşteri, kalıp, çeyrek ve tahsilat kırılımları | 8 · 109 · 84 |
+| 📈 | **[Departman Bazlı Ticaret Analizi](02-departman-ticaret-analizi/)** | Sipariş–ciro–cari üçlüsünün departman şablonu: müşteri, kalıp, çeyrek ve tahsilat kırılımları | 8 · 109 · 84 |
 | 🛒 | **[Satın Alma Analizi](03-satin-alma-analizi/)** | Açık satın alma siparişleri, termin gecikmeleri ve tedarikçi bakiyeleri | 5 · 51 · 16 |
 | 📦 | **[Ürün & Kalıp Analizi](04-urun-kalip-analizi/)** | Ürün kataloğunu kümülatif ciro payına göre sınıflandırıp robot yatırımına aday kalıpları çıkarır | 4 · 23 · 14 |
 
@@ -80,7 +80,7 @@ powerbi-portfolio/
 │   ├── data/                                 ← sentetik CSV'ler
 │   ├── docs/                                 ← ekran görüntüleri
 │   ├── README.md · README.en.md
-├── 02-yurtici-ticaret-analizi/   (aynı düzen)
+├── 02-departman-ticaret-analizi/ (aynı düzen)
 ├── 03-satin-alma-analizi/        (aynı düzen)
 ├── 04-urun-kalip-analizi/        (aynı düzen)
 ├── sql/                          ← veri hattının sadeleştirilmiş SQL karşılığı

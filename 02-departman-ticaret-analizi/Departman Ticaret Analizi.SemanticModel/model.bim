@@ -5624,7 +5624,7 @@
       {
         "name": "VeriKaynagi",
         "kind": "m",
-        "expression": "\"https://raw.githubusercontent.com/Secure-Sentinel/powerbi-portfolio/main/02-yurtici-ticaret-analizi/data/\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "expression": "\"https://raw.githubusercontent.com/Secure-Sentinel/powerbi-portfolio/main/02-departman-ticaret-analizi/data/\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
         "description": "CSV veri klasörü: GitHub raw adresi veya yerel klasör yolu.",
         "annotations": [
           {

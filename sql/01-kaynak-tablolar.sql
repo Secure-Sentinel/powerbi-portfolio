@@ -1,5 +1,5 @@
 /* =====================================================================
-   TENEKA · Kaynak tablolar (sadeleştirilmiş ERP şeması)
+   Test Firma A.Ş. · Kaynak tablolar (sadeleştirilmiş ERP şeması)
    ---------------------------------------------------------------------
    Gerçek kurulumda bu tablolar ERP'nin kendi tabloları olur; burada
    raporların ihtiyaç duyduğu kolonlara indirgenmiş hâlleri var.

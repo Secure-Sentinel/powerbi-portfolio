@@ -2,7 +2,7 @@
   "version": "1.0",
   "datasetReference": {
     "byPath": {
-      "path": "../Yurtici Ticaret Analizi.SemanticModel"
+      "path": "../Departman Ticaret Analizi.SemanticModel"
     },
     "byConnection": null
   }

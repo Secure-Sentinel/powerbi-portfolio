@@ -112,7 +112,7 @@ label works as a slicer.
 
 ## Running it
 
-Open `Yurtici Ticaret Analizi.pbip` in Power BI Desktop and hit **Refresh**.
+Open `Departman Ticaret Analizi.pbip` in Power BI Desktop and hit **Refresh**.
 Details in the [root README](../README.en.md#opening-the-reports).
 
 ## Data pipeline

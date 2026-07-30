@@ -1,5 +1,5 @@
 /* =====================================================================
-   TENEKA · Üretim (SCADA) view'ları
+   Test Firma A.Ş. · Üretim (SCADA) view'ları
    ---------------------------------------------------------------------
    Ekranın tamamı bu view'lardan beslenir. En kritik olan URETIM_VERI_OEE:
    makine başına TEK satır döndürür, çünkü rapordaki LED renkleri
