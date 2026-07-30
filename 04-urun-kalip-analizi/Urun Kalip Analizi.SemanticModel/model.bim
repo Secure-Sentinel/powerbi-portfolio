@@ -1,0 +1,2129 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "tr-TR",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "tr-TR",
+    "tables": [
+      {
+        "name": "SIPARIS",
+        "columns": [
+          {
+            "name": "INCKEYNO",
+            "sourceColumn": "INCKEYNO",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "5b39ad94-0676-4323-adf6-13021da8ee36",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_TARIH",
+            "sourceColumn": "STHAR_TARIH",
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "summarizeBy": "none",
+            "lineageTag": "665e9b96-1273-43cf-98b1-0984af68d96e",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "FISNO",
+            "sourceColumn": "FISNO",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "d5675c60-a35d-411d-ab88-38aeddf77a85",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SIRA",
+            "sourceColumn": "SIRA",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "12fa8163-c250-4fb3-b6c2-2cbe2a57134d",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STOK_KODU",
+            "sourceColumn": "STOK_KODU",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "1c55545d-8c5f-4c68-bbfa-ff7da66a96e3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_CARIKOD",
+            "sourceColumn": "STHAR_CARIKOD",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "1884b7b6-8b9b-496e-adc9-a5af836c375e",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_GCMIK",
+            "sourceColumn": "STHAR_GCMIK",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "a029c19f-ed83-4f19-9722-9d6104648add",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_NF",
+            "sourceColumn": "STHAR_NF",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "7c0184bd-7f67-4f4e-a3c9-19327e766462",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "GONDERILEN",
+            "sourceColumn": "GONDERILEN",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "ff46b4fb-80aa-4b1a-95a9-e9e5254cf628",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "KALAN",
+            "sourceColumn": "KALAN",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "faa2674f-0256-442c-ac8e-5e70fcfdd0b5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "SIPARIS_TEMSILCI",
+            "sourceColumn": "SIPARIS_TEMSILCI",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "ee775287-83c6-44b6-a511-5c12f727bba3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DEPARTMAN",
+            "sourceColumn": "DEPARTMAN",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "304fb740-5055-4c55-a6c6-680fb09c35fb",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_GCKOD",
+            "sourceColumn": "STHAR_GCKOD",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "15bb524e-bc72-4949-b5dc-72af0844e417",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DOLAR_KURU",
+            "sourceColumn": "DOLAR_KURU",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "7d9105b7-7dcc-40d3-abbf-437486b4f2dd",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_KOD1",
+            "sourceColumn": "STHAR_KOD1",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "c99fb900-2361-4e89-85c6-e2147e691e83",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_KOD2",
+            "sourceColumn": "STHAR_KOD2",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "efb196e7-9d64-4f6a-8dc8-df7e0da2f55b",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TUTAR_USD",
+            "sourceColumn": "TUTAR_USD",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "7e70912e-224b-4c42-89d7-fc0a4da3112a",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DURUM",
+            "sourceColumn": "DURUM",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "dd6f402b-4208-49ef-ace3-44f276a95cd1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "YIL",
+            "sourceColumn": "YIL",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "1672642d-9bb3-409c-9d99-6a9fe12fda9e",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AY",
+            "sourceColumn": "AY",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "ad56fbd3-b96f-44eb-b328-3e316f612a58",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "HAFTA",
+            "sourceColumn": "HAFTA",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "360ac2fd-7001-4b47-b892-f39ab393d590",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ODEKOD",
+            "sourceColumn": "ODEKOD",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "0055d141-87df-4611-aa77-63b8b988ab4c",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ODEME_ACIKLAMA",
+            "sourceColumn": "ODEME_ACIKLAMA",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "e7fa551f-3738-4f9d-bc23-41d401b61a47",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PESINAT_ORANI",
+            "sourceColumn": "PESINAT_ORANI",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "bda0a140-eb76-4419-8d46-10e21b4b27b3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "VADE_GUNU",
+            "sourceColumn": "VADE_GUNU",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "674c3cd3-7dce-4fb8-b767-cf258c7626bb",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PESIN_TUTAR",
+            "sourceColumn": "PESIN_TUTAR",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "c81d7424-e1fb-420b-94d2-15fc3655bf90",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "VADELI_TUTAR",
+            "sourceColumn": "VADELI_TUTAR",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "f8093059-d694-43e1-bb0b-ff303af1c6b6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "RPT",
+            "sourceColumn": "RPT",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "e449fbe5-e6c3-4b2d-b399-74a14df09121",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KACINCI_SIPARIS",
+            "sourceColumn": "KACINCI_SIPARIS",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "996a3f69-9553-4743-883b-dfabc5f1d08d",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Satis Tipi",
+            "type": "calculated",
+            "expression": "\nSWITCH (\n    TRUE (),\n    CONTAINSSTRING ( 'SIPARIS'[FISNO], \"STKB\" ), \"Baskılı Satış\",\n    CONTAINSSTRING ( 'SIPARIS'[FISNO], \"STK\" ), \"Stok Satışı\",\n    \"Üretim\"\n)",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "689a73f8-2383-4105-8244-ef112f073b2b",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TEMSILCI_KEY",
+            "type": "calculated",
+            "expression": "COALESCE( SIPARIS[SIPARIS_TEMSILCI], \"(Temsilcisiz)\" )",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "0a008e82-b7c6-4683-8031-7e95af99ee6f",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "40d5f461-6efc-4b2e-84d8-646086c4a717",
+        "measures": [
+          {
+            "name": "OLC_SIPARIS_TOPLAMMIKTAR",
+            "expression": "SUM(SIPARIS[STHAR_GCMIK])",
+            "formatString": "#,0",
+            "lineageTag": "f4cb0e68-2b54-40ef-8cd7-c0a485142cf0"
+          },
+          {
+            "name": "OLC_SIPARIS_TOPLAMTUTAR",
+            "expression": "SUM(SIPARIS[TUTAR_USD])",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "1acabac7-24fa-4e43-b357-00c338e0e60f"
+          },
+          {
+            "name": "OLC_Satis_Payi_%",
+            "expression": "\nDIVIDE(\n    [OLC_SIPARIS_TOPLAMMIKTAR], \n    CALCULATE([OLC_SIPARIS_TOPLAMMIKTAR], ALLSELECTED(STOK[KOD_3]))\n)",
+            "formatString": "%0.00;-%0.00;%0.00",
+            "lineageTag": "5d1a8551-fb69-479e-96ac-4bca2a09736f"
+          },
+          {
+            "name": "OLC_Hiyerarsik_Kumulatif_Pay",
+            "expression": "\nVAR MevcutMiktar = [OLC_SIPARIS_TOPLAMMIKTAR]\n\nRETURN\nIF(\n    ISBLANK(MevcutMiktar) || MevcutMiktar <= 0, \n    BLANK(),\n    VAR KumulatifToplam = \n        SWITCH( TRUE(),\n            -- 1. En Alt Seviye: Stok Adı\n            ISINSCOPE(STOK[STOK_ADI]), \n            SUMX(\n                FILTER(\n                    ALLSELECTED(STOK[STOK_ADI], STOK[KT_YUKSEKLIK], STOK[KOD_3]),\n                    [OLC_SIPARIS_TOPLAMMIKTAR] >= MevcutMiktar\n                ),\n                [OLC_SIPARIS_TOPLAMMIKTAR]\n            ),\n\n            -- 2. Orta Seviye: Yükseklik\n            ISINSCOPE(STOK[KT_YUKSEKLIK]), \n            SUMX(\n                FILTER(\n                    ALLSELECTED(STOK[KT_YUKSEKLIK], STOK[KOD_3]),\n                    [OLC_SIPARIS_TOPLAMMIKTAR] >= MevcutMiktar\n                ),\n                [OLC_SIPARIS_TOPLAMMIKTAR]\n            ),\n\n            -- 3. Üst Seviye: Kalıp (KOD_3)\n            ISINSCOPE(STOK[KOD_3]), \n            SUMX(\n                FILTER(\n                    ALLSELECTED(STOK[KOD_3]),\n                    [OLC_SIPARIS_TOPLAMMIKTAR] >= MevcutMiktar\n                ),\n                [OLC_SIPARIS_TOPLAMMIKTAR]\n            )\n        )\n\n    -- Toplam miktar hesabı (Payda)\n    VAR ToplamMiktar = \n        SWITCH( TRUE(),\n            ISINSCOPE(STOK[STOK_ADI]), CALCULATE([OLC_SIPARIS_TOPLAMMIKTAR], ALLSELECTED(STOK[STOK_ADI], STOK[KT_YUKSEKLIK], STOK[KOD_3])),\n            ISINSCOPE(STOK[KT_YUKSEKLIK]), CALCULATE([OLC_SIPARIS_TOPLAMMIKTAR], ALLSELECTED(STOK[KT_YUKSEKLIK], STOK[KOD_3])),\n            ISINSCOPE(STOK[KOD_3]), CALCULATE([OLC_SIPARIS_TOPLAMMIKTAR], ALLSELECTED(STOK[KOD_3]))\n        )\n\n    RETURN DIVIDE(KumulatifToplam, ToplamMiktar)\n)",
+            "formatString": "%0.00;-%0.00;%0.00",
+            "lineageTag": "61edacd2-e4c0-41bd-9ecf-65cad6225664"
+          },
+          {
+            "name": "OLC_KOD3_Siniflandirma",
+            "expression": "\nVAR Pay = [OLC_Hiyerarsik_Kumulatif_Pay]\nRETURN\nIF(\n    ISBLANK(Pay),\n    BLANK(),\n    SWITCH( TRUE(),\n        Pay <= 0.70, \"Çekirdek Ürünler\",\n        Pay <= 0.85, \"İzleme Grubu\",\n        \"Temizlik Listesi\"\n    )\n)",
+            "lineageTag": "d22837b8-da92-4ed4-b6e4-f31e6a58e469"
+          },
+          {
+            "name": "OLC_Hiyerarsik_Pay_%",
+            "expression": "\nVAR MevcutMiktar = [OLC_SIPARIS_TOPLAMMIKTAR]\n\n-- Üst kırılımların toplamlarını hesaplayalım\nVAR KalipToplami = CALCULATE([OLC_SIPARIS_TOPLAMMIKTAR], ALLSELECTED(STOK[KOD_3], STOK[KT_YUKSEKLIK], STOK[STOK_ADI]))\nVAR YukseklikToplami = CALCULATE([OLC_SIPARIS_TOPLAMMIKTAR], ALLSELECTED(STOK[KT_YUKSEKLIK], STOK[STOK_ADI]))\nVAR StokToplami = CALCULATE([OLC_SIPARIS_TOPLAMMIKTAR], ALLSELECTED(STOK[STOK_ADI]))\n\nRETURN\nSWITCH( TRUE(),\n    -- 1. En alt seviye: Stok Adı'nın Yükseklik içindeki payı\n    ISINSCOPE(STOK[STOK_ADI]), DIVIDE(MevcutMiktar, StokToplami),\n    \n    -- 2. Orta seviye: Yükseklik'in Kalıp içindeki payı\n    ISINSCOPE(STOK[KT_YUKSEKLIK]), DIVIDE(MevcutMiktar, YukseklikToplami),\n    \n    -- 3. Üst seviye: Kalıp'ın Genel Toplam içindeki payı\n    ISINSCOPE(STOK[KOD_3]), DIVIDE(MevcutMiktar, KalipToplami),\n    \n    1 -- Genel Toplam satırı için %100 döner\n)",
+            "formatString": "%0.00;-%0.00;%0.00",
+            "lineageTag": "0cae5c74-9085-48ab-ac4c-d77fc135e8e1"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "SIPARIS",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Kaynak = Veri(\"SIPARIS.csv\"),\n    Tipler = Table.TransformColumnTypes(Kaynak, {{\"INCKEYNO\", Int64.Type}, {\"STHAR_TARIH\", type datetime}, {\"FISNO\", type text}, {\"SIRA\", Int64.Type}, {\"STOK_KODU\", type text}, {\"STHAR_CARIKOD\", type text}, {\"STHAR_GCMIK\", type number}, {\"STHAR_NF\", type number}, {\"GONDERILEN\", type number}, {\"KALAN\", type number}, {\"SIPARIS_TEMSILCI\", type text}, {\"DEPARTMAN\", type text}, {\"STHAR_GCKOD\", type text}, {\"DOLAR_KURU\", type number}, {\"STHAR_KOD1\", type text}, {\"STHAR_KOD2\", type text}, {\"TUTAR_USD\", type number}, {\"DURUM\", type text}, {\"YIL\", Int64.Type}, {\"AY\", Int64.Type}, {\"HAFTA\", Int64.Type}, {\"ODEKOD\", type text}, {\"ODEME_ACIKLAMA\", type text}, {\"PESINAT_ORANI\", type number}, {\"VADE_GUNU\", Int64.Type}, {\"PESIN_TUTAR\", type number}, {\"VADELI_TUTAR\", type number}, {\"RPT\", Int64.Type}, {\"KACINCI_SIPARIS\", Int64.Type}}, \"en-US\")\nin\n    Tipler"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Gezinme"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_0cb9b569-d371-44bd-b2b6-d4337ec1a1ed",
+        "columns": [
+          {
+            "name": "Date",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "sourceColumn": "[Date]",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "PaddedDateTableDates",
+            "lineageTag": "c29ff729-ce5c-408e-9e8b-2eeb0799651c",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ]
+          },
+          {
+            "name": "Yıl",
+            "type": "calculated",
+            "expression": "YEAR([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Years",
+            "lineageTag": "70e23855-551e-42b4-98cb-448cf58df5c5",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ]
+          },
+          {
+            "name": "MonthNo",
+            "type": "calculated",
+            "expression": "MONTH([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "MonthOfYear",
+            "lineageTag": "4078c057-691e-4b20-8e37-03efde7e3e7f",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ]
+          },
+          {
+            "name": "Ay",
+            "type": "calculated",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "dataType": "string",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Months",
+            "sortByColumn": "MonthNo",
+            "lineageTag": "8d1f977a-a356-4e3d-8876-c9e844701ba0",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ]
+          },
+          {
+            "name": "QuarterNo",
+            "type": "calculated",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "QuarterOfYear",
+            "lineageTag": "4387edfb-2c63-4e55-8f93-bcee2c6b0166",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ]
+          },
+          {
+            "name": "Çeyrek",
+            "type": "calculated",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "dataType": "string",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Quarters",
+            "sortByColumn": "QuarterNo",
+            "lineageTag": "ab5fc8a5-9a90-45fb-a8b5-1e578f248eab",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ]
+          },
+          {
+            "name": "Gün",
+            "type": "calculated",
+            "expression": "DAY([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "DayOfMonth",
+            "lineageTag": "fd9a68fc-3d33-41ab-8f07-7c380b349aca",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ]
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "211326c5-867a-45a2-870f-7abc2fc39862",
+        "hierarchies": [
+          {
+            "name": "Tarih Hiyerarşisi",
+            "levels": [
+              {
+                "name": "Yıl",
+                "ordinal": 0,
+                "column": "Yıl",
+                "lineageTag": "c9e0ca6a-7a63-4c4b-b7b2-8319dc7255e8"
+              },
+              {
+                "name": "Çeyrek",
+                "ordinal": 1,
+                "column": "Çeyrek",
+                "lineageTag": "5ed835fb-0ec1-488b-868c-20a2497f580b"
+              },
+              {
+                "name": "Ay",
+                "ordinal": 2,
+                "column": "Ay",
+                "lineageTag": "7c6eda07-3d13-4406-a742-951e1a471d2f"
+              },
+              {
+                "name": "Gün",
+                "ordinal": 3,
+                "column": "Gün",
+                "lineageTag": "c0b6adc6-2770-4981-8af9-841474c00e55"
+              }
+            ],
+            "lineageTag": "64bc220b-ebc1-4b27-8dd3-e9267815e2f9",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DateTableTemplate_0cb9b569-d371-44bd-b2b6-d4337ec1a1ed",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ]
+      },
+      {
+        "name": "STOK",
+        "columns": [
+          {
+            "name": "STOK_KODU",
+            "sourceColumn": "STOK_KODU",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "02c6daf0-28f6-4681-b0a9-665377d869fa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STOK_ADI",
+            "sourceColumn": "STOK_ADI",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "2cfb8d72-8180-452b-9dc4-fa3de3d4ee1a",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "GRUP_KODU",
+            "sourceColumn": "GRUP_KODU",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "99fa0cba-dc5f-4109-8d5a-65ac5349483b",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "GRUP_ADI",
+            "sourceColumn": "GRUP_ADI",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "107e2ec9-25f5-44ef-83f0-0056b57dc7b4",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KOD_1",
+            "sourceColumn": "KOD_1",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "0d502536-fa8d-46ee-b025-baa0351d2d3b",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AD1",
+            "sourceColumn": "AD1",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "dae85d1c-66f8-4661-974e-91ec191d40d9",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KOD_2",
+            "sourceColumn": "KOD_2",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "4a1b2d8a-2820-4d5c-baf3-c50d6d8436b2",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AD2",
+            "sourceColumn": "AD2",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "5b0fce0a-b7ea-4d3f-8687-867c36ae4767",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KOD_3",
+            "sourceColumn": "KOD_3",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "edf3c808-ecfc-4f21-b3db-d3c1beb0f877",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AD3",
+            "sourceColumn": "AD3",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "760daf2f-da3f-4f95-a1a7-d8c1085b083a",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KOD_4",
+            "sourceColumn": "KOD_4",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "831c55ef-b88a-4f16-8710-2215e66f7ddd",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AD4",
+            "sourceColumn": "AD4",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "b54362ba-3b74-4357-b65c-bb78f0f60e26",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KOD_5",
+            "sourceColumn": "KOD_5",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "392996b9-7098-4430-a76a-50126bf6cb46",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AD5",
+            "sourceColumn": "AD5",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "be1857f2-86e6-4052-88b0-eb1e758daf5c",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "INGISIM",
+            "sourceColumn": "INGISIM",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "74e6daca-59db-4e13-a320-6cc517d91187",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KT_YUKSEKLIK",
+            "sourceColumn": "KT_YUKSEKLIK",
+            "dataType": "double",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "82be93a4-2be9-46b7-a6b0-0f6dcf1bf557",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "OLCU_BR1",
+            "sourceColumn": "OLCU_BR1",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "279db2f0-505d-48d2-9200-594fe13a47c3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "OLCU_BR2",
+            "sourceColumn": "OLCU_BR2",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "881ffa3b-7959-4257-90cc-9c63edc07400",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "OLCU_BR3",
+            "sourceColumn": "OLCU_BR3",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "117101c2-18c2-42b7-905e-4b6e4460f837",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BIRIM2_CARPAN",
+            "sourceColumn": "BIRIM2_CARPAN",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "3deff6fb-3d38-4878-9284-dfe05e407d10",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "BIRIM3_CARPAN",
+            "sourceColumn": "BIRIM3_CARPAN",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "1ec2fa6d-7e1c-448d-9c58-bca1be7b2d87",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "BIRIM_MALIYET",
+            "sourceColumn": "BIRIM_MALIYET",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "d636b40c-0638-424a-8957-57e29297e049",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "KUTU_GRUBU",
+            "type": "calculated",
+            "expression": "\nSWITCH( TRUE(),\n    -- YUVARLAK GRUBU\n    STOK[AD1] IN {\"Yuvarlak Kutu\", \"Yuvarlak-Sivama Kutu\"}, \"YUVARLAK\",\n\n    -- KARE GRUBU\n    STOK[AD1] = \"Kare Kutu\", \"KARE\",\n\n    -- ŞEKİLLİ GRUBU\n    STOK[AD1] IN {\"Altıgen Kutu\", \"Dikdortgen Kutu\", \"Sekilli Kutu\", \"Sekizgen Kutu\"}, \"ŞEKİLLİ\",\n\n    -- OVAL GRUBU\n    STOK[AD1] = \"Oval Kutu\", \"OVAL\",\n\n    -- KALP GRUBU\n    STOK[AD1] = \"Kalp Kutu\", \"KALP\",\n\n    -- DİĞER GRUBU\n    STOK[AD1] IN {\n        \"Kapak\", \"Koseli Sivama Kutu\", \"Plaka-Bardak Alti\", \n        \"Sadece Dip\", \"Sadece Kapak\", \"Tel Mekanizmali Kutu\", \"Tepsi\"\n    }, \"DİĞER\",\n\n    -- EĞER LİSTEDE OLMAYAN BİR DEĞER GELİRSE\n    \"DİĞER\"\n)",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "ef7ffd8d-6a7f-4705-b3f3-8009c7078d2a",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AD1_Rapor",
+            "type": "calculated",
+            "expression": "\nVAR k = STOK[KOD_3]\nRETURN\nSWITCH(\n    TRUE(),\n    -- kaynak veride kalıp ile şekil uyuşmadığında şekli kalıba göre sabitler\n    k = \"210-080\", \"Koseli Sivama Kutu\",     -- 3 parçalı köşeli sıvama\n    k = \"DIA-068\", \"Yuvarlak-Sivama Kutu\",   -- 2 parçalı / sıvama\n    k = \"DIA-050\", \"Yuvarlak Kutu\",          -- 3 parçalı\n    k = \"145-095\", \"Dikdortgen Kutu\",              -- kaynak veride belirsiz: iki şekil altında da geçiyor\n    -- küçük şekilleri tek başlık altında topla\n    STOK[AD1] IN { \"Altıgen Kutu\", \"Sekizgen Kutu\" }, \"Sekilli Kutu\",\n    -- Geri kalan olduğu gibi\n    STOK[AD1]\n)",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "013a5781-985a-4732-b648-47073c5a3533",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AD1_New",
+            "type": "calculated",
+            "expression": "\nSWITCH(\n    TRUE(),\n    STOK[AD1] IN { \"Altıgen Kutu\", \"Sekizgen Kutu\" }, \"Sekilli Kutu\",\n    STOK[AD1]\n)",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "faaf2d65-21db-494f-8cd4-83b64762dfb1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "KOD3_New",
+            "type": "calculated",
+            "expression": "\nVAR k = STOK[KOD_3]\nRETURN\nSWITCH(\n    TRUE(),\n    k = \"210-080\", \"Koseli Sivama Kutu\",    -- 3 parçalı köşeli sıvama\n    k = \"DIA-068\", \"Yuvarlak-Sivama Kutu\",  -- 2 parçalı / sıvama\n    k = \"DIA-050\", \"Yuvarlak Kutu\",          -- 3 parçalı\n    k = \"145-095\", \"Kare Kutu\",              -- kaynak veride belirsiz\n    \n    -- Eşleşmeyen kodlar için varsayılan olarak mevcut AD1 değerini getirir\n    STOK[AD1]\n)",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "c323bc41-9be5-46f4-82ac-01c420e55ca3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "Kalip_Rapor",
+            "type": "calculated",
+            "expression": "\nSWITCH(\n    STOK[KOD_3],\n    \"Y120-105\", \"120-105\",   -- Y120-105 ile 120-105 aynı kutu, tek koda indirilir\n    STOK[KOD_3]\n)",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "6229eb96-6a8b-492f-af46-bf4257c24d21",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "8a2fa17e-e0e9-467c-a3aa-211568e8f285",
+        "partitions": [
+          {
+            "name": "STOK",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Kaynak = Veri(\"STOK.csv\"),\n    Tipler = Table.TransformColumnTypes(Kaynak, {{\"STOK_KODU\", type text}, {\"STOK_ADI\", type text}, {\"GRUP_KODU\", type text}, {\"GRUP_ADI\", type text}, {\"KOD_1\", type text}, {\"AD1\", type text}, {\"KOD_2\", type text}, {\"AD2\", type text}, {\"KOD_3\", type text}, {\"AD3\", type text}, {\"KOD_4\", type text}, {\"AD4\", type text}, {\"KOD_5\", type text}, {\"AD5\", type text}, {\"INGISIM\", type text}, {\"KT_YUKSEKLIK\", type number}, {\"OLCU_BR1\", type text}, {\"OLCU_BR2\", type text}, {\"OLCU_BR3\", type text}, {\"BIRIM2_CARPAN\", type number}, {\"BIRIM3_CARPAN\", type number}, {\"BIRIM_MALIYET\", type number}}, \"en-US\")\nin\n    Tipler"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Gezinme"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "TARIH",
+        "columns": [
+          {
+            "name": "Tarih",
+            "sourceColumn": "Tarih",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "summarizeBy": "none",
+            "lineageTag": "c1231f36-4163-4a19-81aa-dab4cff11fed",
+            "variations": [
+              {
+                "name": "Varyasyon",
+                "relationship": "bc9d8d25-3650-40d3-bfbc-ec04e8a2acb0",
+                "defaultHierarchy": {
+                  "table": "LocalDateTable_0505af00-7cb6-4081-9b77-196f5f7d7d85",
+                  "hierarchy": "Tarih Hiyerarşisi"
+                },
+                "isDefault": true
+              }
+            ],
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "bb56149f-0a68-44e1-99da-24980528bce6",
+        "partitions": [
+          {
+            "name": "TARIH",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Baslangic = #date(2012, 1, 1),\n    Bitis = #date(2030, 1, 1),\n    GunSayisi = Duration.Days(Bitis - Baslangic) + 1,\n    Liste = List.Dates(Baslangic, GunSayisi, #duration(1, 0, 0, 0)),\n    Tablo = Table.FromList(Liste, Splitter.SplitByNothing(), {\"Tarih\"}),\n    Tipler = Table.TransformColumnTypes(Tablo, {{\"Tarih\", type date}})\nin\n    Tipler"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Gezinme"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_0505af00-7cb6-4081-9b77-196f5f7d7d85",
+        "columns": [
+          {
+            "name": "Date",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "sourceColumn": "[Date]",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "PaddedDateTableDates",
+            "lineageTag": "15f6083b-e4ff-4d5d-bb5f-c7f1528aa2f0",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ]
+          },
+          {
+            "name": "Yıl",
+            "type": "calculated",
+            "expression": "YEAR([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Years",
+            "lineageTag": "7a23d04d-dceb-4954-97df-92ecddbf6f64",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ]
+          },
+          {
+            "name": "MonthNo",
+            "type": "calculated",
+            "expression": "MONTH([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "MonthOfYear",
+            "lineageTag": "5cd2e43e-c6f2-402e-a4d8-874d9115e146",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ]
+          },
+          {
+            "name": "Ay",
+            "type": "calculated",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "dataType": "string",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Months",
+            "sortByColumn": "MonthNo",
+            "lineageTag": "7fbe7c0e-bf87-4041-b5ed-dfff75af6246",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ]
+          },
+          {
+            "name": "QuarterNo",
+            "type": "calculated",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "QuarterOfYear",
+            "lineageTag": "d1117024-792b-4d47-9ff0-8b247e0274ef",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ]
+          },
+          {
+            "name": "Çeyrek",
+            "type": "calculated",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "dataType": "string",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Quarters",
+            "sortByColumn": "QuarterNo",
+            "lineageTag": "1c6890c9-0a28-43f3-a4ba-d915a9856d06",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ]
+          },
+          {
+            "name": "Gün",
+            "type": "calculated",
+            "expression": "DAY([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "DayOfMonth",
+            "lineageTag": "2646cfb1-7f44-40f5-8cf3-5fec3f70cb5e",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ]
+          }
+        ],
+        "isHidden": true,
+        "showAsVariationsOnly": true,
+        "lineageTag": "153d9c7e-94a2-445c-97aa-1952567a9a90",
+        "hierarchies": [
+          {
+            "name": "Tarih Hiyerarşisi",
+            "levels": [
+              {
+                "name": "Yıl",
+                "ordinal": 0,
+                "column": "Yıl",
+                "lineageTag": "4c088d15-016c-4a9d-a283-bef6ede7790e"
+              },
+              {
+                "name": "Çeyrek",
+                "ordinal": 1,
+                "column": "Çeyrek",
+                "lineageTag": "36848453-e20a-4343-9cd6-1f38c1297b76"
+              },
+              {
+                "name": "Ay",
+                "ordinal": 2,
+                "column": "Ay",
+                "lineageTag": "6879f690-83d8-475c-9bb5-cfe91507144d"
+              },
+              {
+                "name": "Gün",
+                "ordinal": 3,
+                "column": "Gün",
+                "lineageTag": "9901bf72-6cec-413d-9779-87b90d4f7997"
+              }
+            ],
+            "lineageTag": "6b12bb97-f650-4119-9362-234600e5799c",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "LocalDateTable_0505af00-7cb6-4081-9b77-196f5f7d7d85",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "Calendar(Date(Year(MIN('TARIH'[Tarih])), 1, 1), Date(Year(MAX('TARIH'[Tarih])), 12, 31))"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "name": "CIRO",
+        "columns": [
+          {
+            "name": "STOK_KODU",
+            "sourceColumn": "STOK_KODU",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "88e643c1-6db6-40d4-91f9-b1cced25a2ef",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_CARIKOD",
+            "sourceColumn": "STHAR_CARIKOD",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "b351ec49-85fb-41d3-88ec-89fd785ec908",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "FISNO",
+            "sourceColumn": "FISNO",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "740768e5-acc7-4507-a441-6a2c89c3961e",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_TARIH",
+            "sourceColumn": "STHAR_TARIH",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "summarizeBy": "none",
+            "lineageTag": "516367ba-12fe-46d1-a61c-7e01a4a5b621",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_GCMIK",
+            "sourceColumn": "STHAR_GCMIK",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "89d0f7ef-fbd9-4bb5-8acd-95e2b989f21f",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_GCMIK2",
+            "sourceColumn": "STHAR_GCMIK2",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "77fb66f2-7e79-4351-ac63-adec7d35d2da",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_NF",
+            "sourceColumn": "STHAR_NF",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "4ad8b9c2-1dda-499c-bf85-1e67ceebdbc8",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_GCKOD",
+            "sourceColumn": "STHAR_GCKOD",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "b2e728e4-92d2-4a00-95fb-042de60d0b58",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DOLAR_KURU",
+            "sourceColumn": "DOLAR_KURU",
+            "dataType": "double",
+            "summarizeBy": "sum",
+            "lineageTag": "4e17dae7-f437-4cf5-b100-cc4f9498cedf",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TUTAR_USD",
+            "sourceColumn": "TUTAR_USD",
+            "dataType": "double",
+            "formatString": "\\$#,0.000;(\\$#,0.000);\\$#,0.000",
+            "summarizeBy": "sum",
+            "lineageTag": "1874c2e6-6f1b-472e-b6cb-c6886f52a8af",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-US\"}"
+              }
+            ]
+          },
+          {
+            "name": "YIL",
+            "sourceColumn": "YIL",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "4fbaed7d-f3f7-4c9e-9754-e662049e7ceb",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AY",
+            "sourceColumn": "AY",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "5646d971-d19c-4e25-a462-d553d7d0ca63",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STHAR_SIPNUM",
+            "sourceColumn": "STHAR_SIPNUM",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "4f9df508-4a2d-4a7c-b470-ffbe21476675",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "STRA_SIPKONT",
+            "sourceColumn": "STRA_SIPKONT",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "c86f1c67-4630-4e89-b0a8-184fbe69f8c0",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SIP_INC",
+            "sourceColumn": "SIP_INC",
+            "dataType": "int64",
+            "formatString": "0",
+            "summarizeBy": "sum",
+            "lineageTag": "7df3f54d-33a3-47bb-adfa-1bf7c7cbce47",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "AY_BASLANGICI",
+            "sourceColumn": "AY_BASLANGICI",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "summarizeBy": "none",
+            "lineageTag": "d0d444da-04ac-4b3a-86de-7f178dd18f22",
+            "variations": [
+              {
+                "name": "Varyasyon",
+                "relationship": "806559b8-180a-4ce1-8bdf-e9e11ea16131",
+                "defaultHierarchy": {
+                  "table": "LocalDateTable_ef64a015-48c5-4994-9fb1-2de53b23543d",
+                  "hierarchy": "Tarih Hiyerarşisi"
+                },
+                "isDefault": true
+              }
+            ],
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SIPARIS_TEMSILCISI",
+            "sourceColumn": "SIPARIS_TEMSILCISI",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "d1fcf18a-a5ab-44b0-bc66-dad2e59b48e0",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TEMSILCI_GRUP",
+            "sourceColumn": "TEMSILCI_GRUP",
+            "dataType": "string",
+            "summarizeBy": "none",
+            "lineageTag": "42428756-157e-4918-8719-3ba1dfb08d66",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "OLC_Sekil_Uyari",
+            "type": "calculated",
+            "expression": "\nVAR SekilPay = CALCULATE( [OLC_CIRO_Genel_Pay], ALLSELECTED( STOK[Kalip_Rapor] ) )\nRETURN IF( SekilPay < 0.01, \"⚠ Şekil toplamı <%1\", BLANK() )",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "61e8f3f9-1e32-4bd9-8f60-b2806141db18",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TEMSILCI_KEY",
+            "type": "calculated",
+            "expression": "COALESCE( CIRO[SIPARIS_TEMSILCISI], \"(Temsilcisiz)\" )\n",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "2a376577-5d7e-4a04-9c96-e654674fa712",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "82b6e37c-d60c-4f19-bc5b-88f48443227c",
+        "measures": [
+          {
+            "name": "OLC_CIRO",
+            "expression": "SUM(CIRO[TUTAR_USD])",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "31ca27a5-94ca-4cd0-8738-f40006e7bae9",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-US\"}"
+              }
+            ]
+          },
+          {
+            "name": "OLC_CIRO_Genel_Pay",
+            "expression": "\nDIVIDE(\n    [OLC_CIRO],\n    CALCULATE( [OLC_CIRO], ALLSELECTED( STOK ) )\n)",
+            "formatString": "%0.0;-%0.0;%0.0",
+            "lineageTag": "318830f3-ae2f-41a6-a43f-f010a46231c4"
+          },
+          {
+            "name": "OLC_CIRO_Kumulatif_Pay",
+            "expression": "\nVAR MevcutCiro = [OLC_CIRO]\nRETURN\nIF(\n    ISBLANK( MevcutCiro ),\n    BLANK(),\n    SWITCH( TRUE(),\n\n        -- 1) KALIP KIRILIMI: şekil içi kümülatif (en granüler dal EN ÜSTTE)\n        ISINSCOPE( STOK[Kalip_Rapor] ),\n        DIVIDE(\n            SUMX(\n                FILTER( ALLSELECTED( STOK[Kalip_Rapor] ), [OLC_CIRO] >= MevcutCiro ),\n                [OLC_CIRO]\n            ),\n            CALCULATE( [OLC_CIRO], ALLSELECTED( STOK[Kalip_Rapor] ) )\n        ),\n\n        -- 2) ŞEKİL KIRILIMI: genel toplam üzerinden kümülatif\n        ISINSCOPE( STOK[AD1_Rapor] ),\n        DIVIDE(\n            SUMX(\n                FILTER( ALLSELECTED( STOK[AD1_Rapor] ), [OLC_CIRO] >= MevcutCiro ),\n                [OLC_CIRO]\n            ),\n            CALCULATE( [OLC_CIRO], ALLSELECTED( STOK[AD1_Rapor] ) )\n        )\n    )\n)",
+            "formatString": "%0.0;-%0.0;%0.0",
+            "lineageTag": "6247858c-3a20-4d2d-9b54-fa6d247fa00c"
+          },
+          {
+            "name": "OLC_Kalip_Karar",
+            "expression": "\nVAR Pay        = [OLC_CIRO_Kumulatif_Pay]\nVAR PayOncesi  = Pay - [OLC_CIRO_Sekil_Ici_Pay]        -- (1) sınırı aşan kalemi DAHİL et\nVAR Son12      = [OLC_CIRO_Son12Ay]\nVAR IlkSiparis = CALCULATE( MIN( SIPARIS[STHAR_TARIH] ), REMOVEFILTERS( TARIH ) )\nVAR KalipSayisi =                                  -- (2) sadece cirosu olan kalıpları say\n    COUNTROWS( FILTER( ALLSELECTED( STOK[Kalip_Rapor] ), NOT ISBLANK( [OLC_CIRO] ) ) )\nVAR BaskaSekilde =                                 -- (3) kalıp başka şekilde canlı mı\n    CALCULATE( [OLC_CIRO_Son12Ay], ALLSELECTED( STOK[AD1_Rapor] ) ) - Son12\nRETURN\nIF(\n    ISBLANK( [OLC_CIRO] ) || NOT( ISINSCOPE( STOK[Kalip_Rapor] ) ),\n    BLANK(),\n    SWITCH( TRUE(),\n        KalipSayisi = 1,                    \"Tek Kalıp — Ayrı Değerlendir\",\n        NOT( ISBLANK( IlkSiparis ) ) && IlkSiparis >= TODAY() - 365,\n                                            \"Yeni Kalıp — İzle\",\n        PayOncesi < 0.80,                   \"Çekirdek\",\n        ISBLANK( Son12 ) || Son12 = 0,      \"Ölü — Çıkarma Adayı\",\n                                            \"Atıl — MOQ Arttır\"\n    )\n)",
+            "lineageTag": "4829c8a1-3303-4881-b54b-ac4246ad83ea"
+          },
+          {
+            "name": "OLC_CIRO_Son12Ay",
+            "expression": "\nCALCULATE(\n    [OLC_CIRO],\n    REMOVEFILTERS( TARIH ),\n    DATESINPERIOD( TARIH[Tarih], TODAY(), -12, MONTH )\n)\n\n",
+            "formatString": "\\$#,0;(\\$#,0);\\$#,0",
+            "lineageTag": "ed69dab4-f738-481a-9098-5b50fb21bbe7"
+          },
+          {
+            "name": "OLC_Siparis_Sayisi",
+            "expression": "DISTINCTCOUNT( SIPARIS[FISNO] )\n\n",
+            "formatString": "0",
+            "lineageTag": "5cf2ef3f-246c-4dba-9184-e27d6f8ea8cf"
+          },
+          {
+            "name": "OLC_Ort_Siparis_Adedi",
+            "expression": "\nDIVIDE( [OLC_SIPARIS_TOPLAMMIKTAR], [OLC_Siparis_Sayisi] )",
+            "formatString": "0",
+            "lineageTag": "b8d27259-83c3-4e9c-b4c1-7e98788aa6be"
+          },
+          {
+            "name": "OLC_CIRO_Sekil_Ici_Pay",
+            "expression": "\nDIVIDE(\n    [OLC_CIRO],\n    CALCULATE( [OLC_CIRO], ALLSELECTED( STOK[Kalip_Rapor] ) )\n)",
+            "formatString": "%0.0;-%0.0;%0.0",
+            "lineageTag": "6a79e805-32c7-4280-a7f4-94d29ed98ae2"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CIRO",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Kaynak = Veri(\"CIRO.csv\"),\n    Tipler = Table.TransformColumnTypes(Kaynak, {{\"STOK_KODU\", type text}, {\"STHAR_CARIKOD\", type text}, {\"FISNO\", type text}, {\"STHAR_TARIH\", type datetime}, {\"STHAR_GCMIK\", type number}, {\"STHAR_GCMIK2\", type number}, {\"STHAR_NF\", type number}, {\"STHAR_GCKOD\", type text}, {\"DOLAR_KURU\", type number}, {\"TUTAR_USD\", type number}, {\"YIL\", Int64.Type}, {\"AY\", Int64.Type}, {\"STHAR_SIPNUM\", type text}, {\"STRA_SIPKONT\", Int64.Type}, {\"SIP_INC\", Int64.Type}, {\"AY_BASLANGICI\", type datetime}, {\"SIPARIS_TEMSILCISI\", type text}, {\"TEMSILCI_GRUP\", type text}}, \"en-US\")\nin\n    Tipler"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Gezinme"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_ef64a015-48c5-4994-9fb1-2de53b23543d",
+        "columns": [
+          {
+            "name": "Date",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "sourceColumn": "[Date]",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "PaddedDateTableDates",
+            "lineageTag": "dd8054a6-4e88-4e76-88ce-7f58457ce57d",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ]
+          },
+          {
+            "name": "Yıl",
+            "type": "calculated",
+            "expression": "YEAR([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Years",
+            "lineageTag": "cf40c644-3f82-4f3f-8994-846e5dfe2592",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ]
+          },
+          {
+            "name": "MonthNo",
+            "type": "calculated",
+            "expression": "MONTH([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "MonthOfYear",
+            "lineageTag": "1a12e7cc-c2d0-4056-ada9-ac9d84133f2f",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ]
+          },
+          {
+            "name": "Ay",
+            "type": "calculated",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "dataType": "string",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Months",
+            "sortByColumn": "MonthNo",
+            "lineageTag": "938a53ba-982e-4fea-b9fa-067ca4298372",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ]
+          },
+          {
+            "name": "QuarterNo",
+            "type": "calculated",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "QuarterOfYear",
+            "lineageTag": "e5e62f0d-8b49-4174-b73d-3c2089a58ae6",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ]
+          },
+          {
+            "name": "Çeyrek",
+            "type": "calculated",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "dataType": "string",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "Quarters",
+            "sortByColumn": "QuarterNo",
+            "lineageTag": "16596e88-c849-4083-b458-16a6dac6dd1f",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ]
+          },
+          {
+            "name": "Gün",
+            "type": "calculated",
+            "expression": "DAY([Date])",
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "summarizeBy": "none",
+            "dataCategory": "DayOfMonth",
+            "lineageTag": "26a7f5fc-0ec6-400b-8f10-9bcce59f3491",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ]
+          }
+        ],
+        "isHidden": true,
+        "showAsVariationsOnly": true,
+        "lineageTag": "0f752c8f-c435-4fd9-86e6-2147016f44ee",
+        "hierarchies": [
+          {
+            "name": "Tarih Hiyerarşisi",
+            "levels": [
+              {
+                "name": "Yıl",
+                "ordinal": 0,
+                "column": "Yıl",
+                "lineageTag": "98de4a6d-b002-4db7-9ae7-98b4d738344c"
+              },
+              {
+                "name": "Çeyrek",
+                "ordinal": 1,
+                "column": "Çeyrek",
+                "lineageTag": "8268bd46-2965-44f7-9a5c-9c3543316528"
+              },
+              {
+                "name": "Ay",
+                "ordinal": 2,
+                "column": "Ay",
+                "lineageTag": "8cc8177c-22b2-49cf-92b4-feb7601166dd"
+              },
+              {
+                "name": "Gün",
+                "ordinal": 3,
+                "column": "Gün",
+                "lineageTag": "75c41daf-1ad6-4007-85ca-395c19997d73"
+              }
+            ],
+            "lineageTag": "91687b7d-7a61-4af7-b425-4d2ad9c82745",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "LocalDateTable_ef64a015-48c5-4994-9fb1-2de53b23543d",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "Calendar(Date(Year(MIN('CIRO'[AY_BASLANGICI])), 1, 1), Date(Year(MAX('CIRO'[AY_BASLANGICI])), 12, 31))"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "name": "DIM_TEMSILCI",
+        "columns": [
+          {
+            "name": "TEMSILCI",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "sourceColumn": "[TEMSILCI]",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "ece5ab35-d89b-4cc2-a2c9-c3d16f75e7c3",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DEPARTMAN",
+            "type": "calculatedTableColumn",
+            "isNameInferred": true,
+            "sourceColumn": "[DEPARTMAN]",
+            "dataType": "automatic",
+            "summarizeBy": "none",
+            "lineageTag": "9af8ed1e-7ec6-4f2f-9f46-fa637d0a6026",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          }
+        ],
+        "lineageTag": "0aabf9f2-c889-4116-bce0-68df80154529",
+        "partitions": [
+          {
+            "name": "DIM_TEMSILCI",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "\nDISTINCT(\n    SELECTCOLUMNS(\n        CIRO,\n        \"TEMSILCI\",  COALESCE( CIRO[SIPARIS_TEMSILCISI], \"(Temsilcisiz)\" ),\n        \"DEPARTMAN\", CIRO[TEMSILCI_GRUP]\n    )\n)"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "691a6bcea6404aefb0a874291ac90f00"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "bc9d8d25-3650-40d3-bfbc-ec04e8a2acb0",
+        "fromTable": "TARIH",
+        "fromColumn": "Tarih",
+        "toTable": "LocalDateTable_0505af00-7cb6-4081-9b77-196f5f7d7d85",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "199ffa80-710a-08f9-e4fa-42651c0981fe",
+        "fromTable": "SIPARIS",
+        "fromColumn": "STOK_KODU",
+        "toTable": "STOK",
+        "toColumn": "STOK_KODU"
+      },
+      {
+        "name": "75be2e72-6cea-46d0-9dc7-39b5b66f293f",
+        "fromTable": "SIPARIS",
+        "fromColumn": "STHAR_TARIH",
+        "toTable": "TARIH",
+        "toColumn": "Tarih"
+      },
+      {
+        "name": "806559b8-180a-4ce1-8bdf-e9e11ea16131",
+        "fromTable": "CIRO",
+        "fromColumn": "AY_BASLANGICI",
+        "toTable": "LocalDateTable_ef64a015-48c5-4994-9fb1-2de53b23543d",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "AutoDetected_b679256f-7777-40c5-9379-b7827ff6223e",
+        "fromTable": "CIRO",
+        "fromColumn": "STOK_KODU",
+        "toTable": "STOK",
+        "toColumn": "STOK_KODU"
+      },
+      {
+        "name": "79c71ef8-d93e-69b6-91c1-515856c4d3a8",
+        "fromTable": "CIRO",
+        "fromColumn": "STHAR_TARIH",
+        "toTable": "TARIH",
+        "toColumn": "Tarih"
+      },
+      {
+        "name": "a52b9557-9ac3-87e0-fc99-b4a9fe5a594e",
+        "fromTable": "CIRO",
+        "fromColumn": "TEMSILCI_KEY",
+        "toTable": "DIM_TEMSILCI",
+        "toColumn": "TEMSILCI"
+      },
+      {
+        "name": "d786d4ae-0276-f219-50fd-1efe47ff54b9",
+        "fromTable": "SIPARIS",
+        "fromColumn": "TEMSILCI_KEY",
+        "toTable": "DIM_TEMSILCI",
+        "toColumn": "TEMSILCI"
+      }
+    ],
+    "expressions": [
+      {
+        "name": "VeriKaynagi",
+        "kind": "m",
+        "expression": "\"https://raw.githubusercontent.com/Secure-Sentinel/powerbi-portfolio/main/04-urun-kalip-analizi/data/\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "description": "CSV veri klasörü: GitHub raw adresi veya yerel klasör yolu.",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Gezinti"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ]
+      },
+      {
+        "name": "Veri",
+        "kind": "m",
+        "expression": "let\n    // Tek giriş noktası: VeriKaynagi parametresi ya bir HTTPS adresi\n    // (GitHub raw) ya da yerel bir klasör yolu olabilir.\n    Veri = (dosya as text) as table =>\n        let\n            Icerik =\n                if Text.StartsWith(VeriKaynagi, \"http\") then\n                    Web.Contents(VeriKaynagi, [RelativePath = dosya])\n                else\n                    File.Contents(\n                        VeriKaynagi\n                        & (if Text.EndsWith(VeriKaynagi, \"\\\") then \"\" else \"\\\")\n                        & dosya\n                    ),\n            Ayrilmis = Csv.Document(\n                Icerik,\n                [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]\n            ),\n            Basliklar = Table.PromoteHeaders(Ayrilmis, [PromoteAllScalars = true])\n        in\n            Basliklar\nin\n    Veri",
+        "description": "Verilen CSV dosyasını okuyup başlıkları yükseltir.",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"VeriKaynagi\", \"Veri\", \"SIPARIS\", \"STOK\", \"TARIH\", \"CIRO\", \"DIM_TEMSILCI\"]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+CARI_KOD,CARI_AD,ULKE_KODU,ULKEADI,GRUP_KODU,SEKTOR,RAPOR_KODU1,BOLGE,RAPOR_KODU2,SEKTOR2,RAPOR_KODU3,CARI_TEMSILCI,DEPARTMAN,CARI_TIPI,MUSTERI_YERI
+120.01.0001,Nordwind Oy,SE,İSVEÇ,MG2,Boya-Kimya,R1-7,Avrupa,R2-5,İhracatçı,R3-4,Elif S.,YURTDISI,MUSTERI,İsveç
+120.01.0002,Zümrütlü Kozmetik Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-2,Karadeniz,R2-2,Zincir Market,R3-2,Cem A.,YURTICI,MUSTERI,Kayseri
+120.01.0003,Alaçatı Süt Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Gıda,R1-5,Güneydoğu,R2-2,Toptancı,R3-2,Pelin R.,BASKILI,MUSTERI,Mersin
+120.01.0004,Gümüşdere Çay Ltd. Şti.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-8,Marmara,R2-4,Toptancı,R3-3,Bahar Ö.,YURTICI,MUSTERI,Kayseri
+120.01.0005,Marmarist Kahve A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-4,Karadeniz,R2-5,İhracatçı,R3-4,Selim K.,YURTICI,MUSTERI,Trabzon
+120.01.0006,Ünlüoğlu Reçel Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-3,Akdeniz,R2-3,Toptancı,R3-3,Bahar Ö.,YURTICI,MUSTERI,İstanbul
+120.01.0007,Terravita A/S,GB,İNGİLTERE,MG2,Zeytin-Zeytinyağı,R1-4,Avrupa,R2-6,Toptancı,R3-3,Deniz Y.,YURTDISI,MUSTERI,İngi̇ltere
+120.01.0008,Narlıcan Makine San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Baharat,R1-1,Marmara,R2-1,İhracatçı,R3-4,Selim K.,YURTICI,MUSTERI,Trabzon
+120.01.0009,Narlıcan Kozmetik Koll. Şti.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-9,Karadeniz,R2-6,İhracatçı,R3-4,Bahar Ö.,YURTICI,MUSTERI,Gaziantep
+120.01.0010,Narlıcan Makine Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Gıda,R1-4,Marmara,R2-4,Zincir Market,R3-1,Selim K.,YURTICI,MUSTERI,Şanlıurfa
+120.01.0011,Vişneli Reçel San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-7,Doğu Anadolu,R2-6,Zincir Market,R3-2,Selim K.,YURTICI,MUSTERI,Eskişehir
+120.01.0012,Ferahlı Ambalaj Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-3,İç Anadolu,R2-5,Toptancı,R3-2,Bahar Ö.,YURTICI,MUSTERI,Balıkesir
+120.01.0013,Fjordholm Trading B.V.,FR,FRANSA,MG2,Gıda,R1-1,Avrupa,R2-4,İhracatçı,R3-4,Deniz Y.,YURTDISI,MUSTERI,Fransa
+120.01.0014,Nilüferli Ambalaj A.Ş.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-5,Doğu Anadolu,R2-2,Fason Üretici,R3-2,Bahar Ö.,YURTICI,MUSTERI,Şanlıurfa
+120.01.0015,Orhanlı Zeytin San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-7,Ege,R2-3,Marka Sahibi,R3-4,Selim K.,YURTICI,MUSTERI,Ordu
+120.01.0016,Nilüferli Makine Ltd. Şti.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-5,Ege,R2-5,Toptancı,R3-1,Cem A.,YURTICI,MUSTERI,Ankara
+120.01.0017,Toprakçı Ambalaj Ltd. Şti.,TR,TÜRKİYE,MG1,Endüstriyel,R1-7,Ege,R2-5,Marka Sahibi,R3-2,Selim K.,YURTICI,MUSTERI,Tekirdağ
+120.01.0018,Zeytinburcu Konserve Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-9,İç Anadolu,R2-1,Fason Üretici,R3-4,Nurhan T.,YURTICI,MUSTERI,Manisa
+120.01.0019,Yaylalı Süt San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Gıda,R1-8,Doğu Anadolu,R2-4,İhracatçı,R3-4,Cem A.,YURTICI,MUSTERI,Bursa
+120.01.0020,Çınaraltı Tarım A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-1,Marmara,R2-6,Zincir Market,R3-4,Nurhan T.,YURTICI,MUSTERI,Bursa
+120.01.0021,Gümüşdere Kozmetik Koll. Şti.,TR,TÜRKİYE,MG1,Hediyelik,R1-8,Güneydoğu,R2-2,Marka Sahibi,R3-3,Bahar Ö.,YURTICI,MUSTERI,Trabzon
+120.01.0022,Efelik Şekerleme Koll. Şti.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-9,Karadeniz,R2-5,İhracatçı,R3-1,Bahar Ö.,YURTICI,MUSTERI,İzmir
+120.01.0023,Ünlüoğlu Çay A.Ş.,TR,TÜRKİYE,MG1,Kozmetik,R1-5,Karadeniz,R2-4,Zincir Market,R3-1,Bahar Ö.,YURTICI,MUSTERI,İstanbul
+120.01.0024,Jalezade Salça Koll. Şti.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-5,Doğu Anadolu,R2-4,Toptancı,R3-1,Cem A.,YURTICI,MUSTERI,Eskişehir
+120.01.0025,Brightcan Foods GmbH,PL,POLONYA,MG2,Boya-Kimya,R1-9,Avrupa,R2-4,Toptancı,R3-2,Elif S.,YURTDISI,MUSTERI,Polonya
+120.01.0026,Mercanlı Konserve San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-5,İç Anadolu,R2-2,Zincir Market,R3-3,Nurhan T.,YURTICI,MUSTERI,Mersin
+120.01.0027,Umutlu Boya Ltd. Şti.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-3,Karadeniz,R2-4,Marka Sahibi,R3-1,Bahar Ö.,YURTICI,MUSTERI,Bursa
+120.01.0028,Orhanlı Şekerleme Koll. Şti.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-9,Akdeniz,R2-2,Marka Sahibi,R3-2,Bahar Ö.,YURTICI,MUSTERI,Tekirdağ
+120.01.0029,Brightcan A/S,SA,SUUDİ ARABİSTAN,MG2,Süt Ürünleri,R1-5,Ortadoğu,R2-4,Zincir Market,R3-4,Deniz Y.,YURTDISI,MUSTERI,Suudi̇ Arabi̇stan
+120.01.0030,Pınarbaşlı Salça San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-2,Ege,R2-6,Fason Üretici,R3-2,Bahar Ö.,YURTICI,MUSTERI,Ankara
+120.01.0031,Narlıcan Konserve A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-5,Ege,R2-4,Zincir Market,R3-2,Bahar Ö.,YURTICI,MUSTERI,Şanlıurfa
+120.01.0032,Jalezade Bisküvi Ltd. Şti.,TR,TÜRKİYE,MG1,Endüstriyel,R1-4,Doğu Anadolu,R2-2,İhracatçı,R3-1,Selim K.,YURTICI,MUSTERI,Aydın
+120.01.0033,Umutlu Kozmetik San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-3,İç Anadolu,R2-6,Fason Üretici,R3-1,Kaan M.,BASKILI,MUSTERI,Aydın
+120.01.0034,Orhanlı Kahve Koll. Şti.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-1,Marmara,R2-4,Toptancı,R3-3,Nurhan T.,YURTICI,MUSTERI,Eskişehir
+120.01.0035,Ovacıklı Tarım San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Baharat,R1-3,Karadeniz,R2-4,Fason Üretici,R3-1,Nurhan T.,YURTICI,MUSTERI,Ordu
+120.01.0036,Dörtyollu Kahve San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-8,Güneydoğu,R2-5,Fason Üretici,R3-4,Cem A.,YURTICI,MUSTERI,Konya
+120.01.0037,Poyrazlı Boya Koll. Şti.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-2,Akdeniz,R2-6,Marka Sahibi,R3-2,Cem A.,YURTICI,MUSTERI,Samsun
+120.01.0038,Vişneli Kimya A.Ş.,TR,TÜRKİYE,MG1,Gıda,R1-7,Karadeniz,R2-1,Toptancı,R3-1,Selim K.,YURTICI,MUSTERI,Balıkesir
+120.01.0039,Gümüşdere Bisküvi San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-9,İç Anadolu,R2-5,Toptancı,R3-3,Bahar Ö.,YURTICI,MUSTERI,Ankara
+120.01.0040,Pınarbaşlı Kahve A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-6,İç Anadolu,R2-1,Toptancı,R3-1,Kaan M.,BASKILI,MUSTERI,İzmir
+120.01.0041,Alaçatı Reçel San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-7,Ege,R2-4,İhracatçı,R3-2,Kaan M.,BASKILI,MUSTERI,İstanbul
+120.01.0042,Aurelia S.p.A.,NL,HOLLANDA,MG2,Bal-Reçel,R1-2,Avrupa,R2-1,Marka Sahibi,R3-3,Deniz Y.,YURTDISI,MUSTERI,Hollanda
+120.01.0043,Bahçelik Salça A.Ş.,TR,TÜRKİYE,MG1,Gıda,R1-5,İç Anadolu,R2-3,Marka Sahibi,R3-2,Selim K.,YURTICI,MUSTERI,Kocaeli
+120.01.0044,Hisarlı Zeytin A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-7,Ege,R2-1,Zincir Market,R3-1,Bahar Ö.,YURTICI,MUSTERI,Antalya
+120.01.0045,Mercanlı Reçel Koll. Şti.,TR,TÜRKİYE,MG1,Kozmetik,R1-1,Doğu Anadolu,R2-2,İhracatçı,R3-4,Nurhan T.,YURTICI,MUSTERI,Eskişehir
+120.01.0046,Poyrazlı Zeytin Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-2,Karadeniz,R2-5,Marka Sahibi,R3-2,Kaan M.,BASKILI,MUSTERI,Gaziantep
+120.01.0047,Vişneli Endüstri Ltd. Şti.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-6,Güneydoğu,R2-4,İhracatçı,R3-2,Bahar Ö.,YURTICI,MUSTERI,Samsun
+120.01.0048,Ünlüoğlu Gıda Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Endüstriyel,R1-2,Karadeniz,R2-4,Toptancı,R3-1,Cem A.,YURTICI,MUSTERI,Ordu
+120.01.0049,Akkavak Süt A.Ş.,TR,TÜRKİYE,MG1,Endüstriyel,R1-5,Akdeniz,R2-1,Toptancı,R3-3,Kaan M.,BASKILI,MUSTERI,Bursa
+120.01.0050,Casa Verde S.p.A.,DK,DANİMARKA,MG2,Baharat,R1-3,Avrupa,R2-4,İhracatçı,R3-1,Deniz Y.,YURTDISI,MUSTERI,Dani̇marka
+120.01.0051,Alaçatı Endüstri Ltd. Şti.,TR,TÜRKİYE,MG1,Baharat,R1-7,Akdeniz,R2-2,Marka Sahibi,R3-3,Cem A.,YURTICI,MUSTERI,Manisa
+120.01.0052,Yaylalı Kozmetik Ltd. Şti.,TR,TÜRKİYE,MG1,Endüstriyel,R1-6,Karadeniz,R2-4,Zincir Market,R3-1,Selim K.,YURTICI,MUSTERI,Eskişehir
+120.01.0053,Bozkırlı Süt San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-6,Akdeniz,R2-3,Zincir Market,R3-1,Selim K.,YURTICI,MUSTERI,Ankara
+120.01.0054,Bozkırlı Endüstri San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-5,Doğu Anadolu,R2-2,Fason Üretici,R3-4,Nurhan T.,YURTICI,MUSTERI,Samsun
+120.01.0055,Meridian Foods GmbH,NL,HOLLANDA,MG2,Gıda,R1-7,Avrupa,R2-1,Zincir Market,R3-4,Deniz Y.,YURTDISI,MUSTERI,Hollanda
+120.01.0056,Çınaraltı Kozmetik Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Kozmetik,R1-1,Marmara,R2-4,Marka Sahibi,R3-3,Nurhan T.,YURTICI,MUSTERI,Şanlıurfa
+120.01.0057,Ardıçlı Süt Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-2,Akdeniz,R2-2,Marka Sahibi,R3-1,Nurhan T.,YURTICI,MUSTERI,Tekirdağ
+120.01.0058,Sarıçam Reçel Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Endüstriyel,R1-1,Ege,R2-3,Zincir Market,R3-2,Selim K.,YURTICI,MUSTERI,Aydın
+120.01.0059,Rüzgarlı Çay Koll. Şti.,TR,TÜRKİYE,MG1,Kozmetik,R1-6,Marmara,R2-5,Zincir Market,R3-2,Kaan M.,BASKILI,MUSTERI,Balıkesir
+120.01.0060,Vantel Trading B.V.,SA,SUUDİ ARABİSTAN,MG2,Bal-Reçel,R1-1,Ortadoğu,R2-3,Toptancı,R3-3,Elif S.,YURTDISI,MUSTERI,Suudi̇ Arabi̇stan
+120.01.0061,Yaylalı Şekerleme Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-3,Doğu Anadolu,R2-6,Zincir Market,R3-2,Kaan M.,BASKILI,MUSTERI,Kayseri
+120.01.0062,Lodoslu Boya Koll. Şti.,TR,TÜRKİYE,MG1,Kozmetik,R1-7,Doğu Anadolu,R2-5,Zincir Market,R3-2,Cem A.,YURTICI,MUSTERI,Denizli
+120.01.0063,Aurelia Oy,SE,İSVEÇ,MG2,Süt Ürünleri,R1-8,Avrupa,R2-1,Zincir Market,R3-2,Elif S.,YURTDISI,MUSTERI,İsveç
+120.01.0064,Nordwind S.A.,SE,İSVEÇ,MG2,Hediyelik,R1-6,Avrupa,R2-4,Toptancı,R3-1,Elif S.,YURTDISI,MUSTERI,İsveç
+120.01.0065,Orhanlı Reçel Ltd. Şti.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-5,Ege,R2-3,Marka Sahibi,R3-1,Cem A.,YURTICI,MUSTERI,Aydın
+120.01.0066,Fidanlık Süt San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-3,Akdeniz,R2-4,Toptancı,R3-3,Nurhan T.,YURTICI,MUSTERI,Kayseri
+120.01.0067,Bahçelik Endüstri Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-1,Akdeniz,R2-4,Zincir Market,R3-1,Nurhan T.,YURTICI,MUSTERI,Adana
+120.01.0068,Umutlu Baharat Ltd. Şti.,TR,TÜRKİYE,MG1,Kozmetik,R1-1,Karadeniz,R2-3,Fason Üretici,R3-4,Cem A.,YURTICI,MUSTERI,Adana
+120.01.0069,Kavaklıdere Zeytin Ltd. Şti.,TR,TÜRKİYE,MG1,Baharat,R1-5,Akdeniz,R2-4,Marka Sahibi,R3-2,Selim K.,YURTICI,MUSTERI,Ankara
+120.01.0070,Irmakkent Bal Ltd. Şti.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-1,İç Anadolu,R2-2,Toptancı,R3-3,Cem A.,YURTICI,MUSTERI,Adana
+120.01.0071,Denizcan Bisküvi San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-3,Ege,R2-4,Toptancı,R3-3,Bahar Ö.,YURTICI,MUSTERI,İstanbul
+120.01.0072,Cumbalı Zeytin Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-1,İç Anadolu,R2-4,Toptancı,R3-1,Nurhan T.,YURTICI,MUSTERI,Balıkesir
+120.01.0073,Ardıçlı Reçel San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Baharat,R1-6,İç Anadolu,R2-4,Zincir Market,R3-2,Selim K.,YURTICI,MUSTERI,Ankara
+120.01.0074,Ovacıklı Tarım Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-9,İç Anadolu,R2-5,Toptancı,R3-4,Cem A.,YURTICI,MUSTERI,Antalya
+120.01.0075,Orhanlı Zeytin Ltd. Şti.,TR,TÜRKİYE,MG1,Hediyelik,R1-2,Karadeniz,R2-3,İhracatçı,R3-1,Selim K.,YURTICI,MUSTERI,Ordu
+120.01.0076,Cevizli Ambalaj Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Kozmetik,R1-9,İç Anadolu,R2-5,Marka Sahibi,R3-4,Nurhan T.,YURTICI,MUSTERI,Eskişehir
+120.01.0077,Poyrazlı Konserve San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-3,Ege,R2-6,İhracatçı,R3-1,Bahar Ö.,YURTICI,MUSTERI,Tekirdağ
+120.01.0078,Lodoslu Turşu San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-1,Doğu Anadolu,R2-6,Zincir Market,R3-4,Nurhan T.,YURTICI,MUSTERI,Ordu
+120.01.0079,Vantel A/S,AE,BAE,MG2,Baharat,R1-9,Ortadoğu,R2-4,Fason Üretici,R3-1,Deniz Y.,YURTDISI,MUSTERI,Bae
+120.01.0080,Stellamar Trading B.V.,PL,POLONYA,MG2,Süt Ürünleri,R1-8,Avrupa,R2-2,İhracatçı,R3-3,Elif S.,YURTDISI,MUSTERI,Polonya
+120.01.0081,Mercanlı Gıda Koll. Şti.,TR,TÜRKİYE,MG1,Gıda,R1-6,Akdeniz,R2-5,Fason Üretici,R3-1,Kaan M.,BASKILI,MUSTERI,Kayseri
+120.01.0082,Bozkırlı Reçel Koll. Şti.,TR,TÜRKİYE,MG1,Hediyelik,R1-4,Marmara,R2-1,İhracatçı,R3-1,Selim K.,YURTICI,MUSTERI,Trabzon
+120.01.0083,Zeytinburcu Kozmetik Ltd. Şti.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-2,Güneydoğu,R2-2,Marka Sahibi,R3-2,Kaan M.,BASKILI,MUSTERI,Şanlıurfa
+120.01.0084,Orionis S.A.,FR,FRANSA,MG2,Hediyelik,R1-2,Avrupa,R2-1,Zincir Market,R3-4,Elif S.,YURTDISI,MUSTERI,Fransa
+120.01.0085,Poyrazlı Baharat San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Baharat,R1-1,Doğu Anadolu,R2-6,İhracatçı,R3-3,Selim K.,YURTICI,MUSTERI,Aydın
+120.01.0086,Bahçelik Turşu San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Endüstriyel,R1-4,Marmara,R2-1,Toptancı,R3-2,Nurhan T.,YURTICI,MUSTERI,Kocaeli
+120.01.0087,Pınarbaşlı Şekerleme San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Gıda,R1-4,Marmara,R2-6,Zincir Market,R3-2,Pelin R.,BASKILI,MUSTERI,Samsun
+120.01.0088,Dalyanlı Turşu San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-5,Akdeniz,R2-5,Fason Üretici,R3-2,Nurhan T.,YURTICI,MUSTERI,Tekirdağ
+120.01.0089,Tuzlalı Boya San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Kozmetik,R1-4,Güneydoğu,R2-4,İhracatçı,R3-4,Nurhan T.,YURTICI,MUSTERI,Manisa
+120.01.0090,Narlıcan Kimya San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Endüstriyel,R1-1,Marmara,R2-3,Toptancı,R3-4,Nurhan T.,YURTICI,MUSTERI,Adana
+120.01.0091,Sarıçam Endüstri A.Ş.,TR,TÜRKİYE,MG1,Kozmetik,R1-5,İç Anadolu,R2-2,Toptancı,R3-1,Selim K.,YURTICI,MUSTERI,Mersin
+120.01.0092,Yaylalı Turşu Ltd. Şti.,TR,TÜRKİYE,MG1,Gıda,R1-6,Doğu Anadolu,R2-5,Fason Üretici,R3-2,Bahar Ö.,YURTICI,MUSTERI,Balıkesir
+120.01.0093,Orhanlı Tarım A.Ş.,TR,TÜRKİYE,MG1,Endüstriyel,R1-9,Akdeniz,R2-2,Marka Sahibi,R3-4,Kaan M.,BASKILI,MUSTERI,Mersin
+120.01.0094,Jalezade Reçel Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Hediyelik,R1-7,Karadeniz,R2-2,Zincir Market,R3-3,Nurhan T.,YURTICI,MUSTERI,Eskişehir
+120.01.0095,Pınarbaşlı Gıda Ltd. Şti.,TR,TÜRKİYE,MG1,Endüstriyel,R1-5,Karadeniz,R2-3,Marka Sahibi,R3-4,Cem A.,YURTICI,MUSTERI,Ankara
+120.01.0096,Efelik Tarım Koll. Şti.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-4,Ege,R2-6,Fason Üretici,R3-2,Nurhan T.,YURTICI,MUSTERI,Samsun
+120.01.0097,İncirli Tarım Ltd. Şti.,TR,TÜRKİYE,MG1,Hediyelik,R1-1,Karadeniz,R2-2,Marka Sahibi,R3-3,Cem A.,YURTICI,MUSTERI,Şanlıurfa
+120.01.0098,Orionis Oy,AE,BAE,MG2,Baharat,R1-3,Ortadoğu,R2-6,İhracatçı,R3-2,Deniz Y.,YURTDISI,MUSTERI,Bae
+120.01.0099,Brightcan Trading B.V.,DK,DANİMARKA,MG2,Endüstriyel,R1-1,Avrupa,R2-6,Fason Üretici,R3-4,Deniz Y.,YURTDISI,MUSTERI,Dani̇marka
+120.01.0100,Pınarbaşlı Kahve Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Gıda,R1-8,Güneydoğu,R2-1,Marka Sahibi,R3-4,Bahar Ö.,YURTICI,MUSTERI,İstanbul
+120.01.0101,Vantel Foods GmbH,PL,POLONYA,MG2,Boya-Kimya,R1-1,Avrupa,R2-4,Toptancı,R3-3,Deniz Y.,YURTDISI,MUSTERI,Polonya
+120.01.0102,Yaylalı Konserve Koll. Şti.,TR,TÜRKİYE,MG1,Hediyelik,R1-9,Ege,R2-1,Fason Üretici,R3-4,Bahar Ö.,YURTICI,MUSTERI,Samsun
+120.01.0103,Alaçatı Konserve Ltd. Şti.,TR,TÜRKİYE,MG1,Endüstriyel,R1-6,Marmara,R2-2,Zincir Market,R3-4,Selim K.,YURTICI,MUSTERI,Samsun
+120.01.0104,Dörtyollu Baharat A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-7,Akdeniz,R2-2,İhracatçı,R3-3,Kaan M.,BASKILI,MUSTERI,Gaziantep
+120.01.0105,Dörtyollu Gıda Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-9,İç Anadolu,R2-2,Marka Sahibi,R3-1,Selim K.,YURTICI,MUSTERI,Adana
+120.01.0106,Rüzgarlı Şekerleme San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-3,Ege,R2-6,İhracatçı,R3-4,Selim K.,YURTICI,MUSTERI,Manisa
+120.01.0107,Cevizli Şekerleme Koll. Şti.,TR,TÜRKİYE,MG1,Gıda,R1-9,Güneydoğu,R2-2,Zincir Market,R3-3,Cem A.,YURTICI,MUSTERI,Konya
+120.01.0108,Bluewater A/S,SE,İSVEÇ,MG2,Bal-Reçel,R1-4,Avrupa,R2-2,İhracatçı,R3-4,Elif S.,YURTDISI,MUSTERI,İsveç
+120.01.0109,Orhanlı Ambalaj Ltd. Şti.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-3,Karadeniz,R2-5,Zincir Market,R3-4,Bahar Ö.,YURTICI,MUSTERI,Gaziantep
+120.01.0110,Solheim S.A.,GB,İNGİLTERE,MG2,Kozmetik,R1-9,Avrupa,R2-6,Zincir Market,R3-4,Deniz Y.,YURTDISI,MUSTERI,İngi̇ltere
+120.01.0111,Sarıçam Süt San. ve Tic. A.Ş.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-5,Güneydoğu,R2-1,Marka Sahibi,R3-4,Nurhan T.,YURTICI,MUSTERI,Mersin
+120.01.0112,Umutlu Makine Ltd. Şti.,TR,TÜRKİYE,MG1,Kozmetik,R1-1,Karadeniz,R2-5,Toptancı,R3-3,Nurhan T.,YURTICI,MUSTERI,Aydın
+120.01.0113,Meridian A/S,FR,FRANSA,MG2,Bal-Reçel,R1-1,Avrupa,R2-5,Fason Üretici,R3-2,Deniz Y.,YURTDISI,MUSTERI,Fransa
+120.01.0114,Terravita S.p.A.,AE,BAE,MG2,Gıda,R1-7,Ortadoğu,R2-3,Marka Sahibi,R3-2,Deniz Y.,YURTDISI,MUSTERI,Bae
+120.01.0115,Marmarist Bal Ltd. Şti.,TR,TÜRKİYE,MG1,Gıda,R1-2,Karadeniz,R2-6,Zincir Market,R3-4,Cem A.,YURTICI,MUSTERI,Mersin
+120.01.0116,Grünfeld Trading B.V.,RO,ROMANYA,MG2,Gıda,R1-3,Avrupa,R2-1,İhracatçı,R3-4,Deniz Y.,YURTDISI,MUSTERI,Romanya
+120.01.0117,Vişneli Salça Ltd. Şti.,TR,TÜRKİYE,MG1,Hediyelik,R1-3,Ege,R2-4,İhracatçı,R3-1,Cem A.,YURTICI,MUSTERI,Konya
+120.01.0118,Yaylalı Kimya A.Ş.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-2,Ege,R2-4,Toptancı,R3-2,Cem A.,YURTICI,MUSTERI,Ankara
+120.01.0119,Bozkırlı Endüstri Ltd. Şti.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-4,Ege,R2-4,Zincir Market,R3-2,Kaan M.,BASKILI,MUSTERI,Aydın
+120.01.0120,Umutlu Tarım Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Endüstriyel,R1-7,İç Anadolu,R2-2,Fason Üretici,R3-2,Nurhan T.,YURTICI,MUSTERI,İzmir
+120.01.0121,Dalyanlı Reçel A.Ş.,TR,TÜRKİYE,MG1,Kozmetik,R1-1,Ege,R2-4,Fason Üretici,R3-3,Bahar Ö.,YURTICI,MUSTERI,Aydın
+120.01.0122,Sarıçam Gıda A.Ş.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-7,Doğu Anadolu,R2-6,Zincir Market,R3-4,Selim K.,YURTICI,MUSTERI,Kayseri
+120.01.0123,Uğurcan Bal A.Ş.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-9,Doğu Anadolu,R2-4,İhracatçı,R3-4,Selim K.,YURTICI,MUSTERI,Balıkesir
+120.01.0124,Cumbalı Gıda Ltd. Şti.,TR,TÜRKİYE,MG1,Gıda,R1-4,Ege,R2-2,Toptancı,R3-3,Bahar Ö.,YURTICI,MUSTERI,Eskişehir
+120.01.0125,Pınarbaşlı Zeytin A.Ş.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-5,Güneydoğu,R2-5,Zincir Market,R3-3,Kaan M.,BASKILI,MUSTERI,Ordu
+120.01.0126,Stellamar Ltd.,PL,POLONYA,MG2,Endüstriyel,R1-9,Avrupa,R2-4,Zincir Market,R3-4,Elif S.,YURTDISI,MUSTERI,Polonya
+120.01.0127,Poyrazlı Makine Koll. Şti.,TR,TÜRKİYE,MG1,Gıda,R1-3,Akdeniz,R2-6,Marka Sahibi,R3-4,Pelin R.,BASKILI,MUSTERI,Manisa
+120.01.0128,Casa Verde Foods GmbH,AE,BAE,MG2,Süt Ürünleri,R1-1,Ortadoğu,R2-4,Zincir Market,R3-2,Elif S.,YURTDISI,MUSTERI,Bae
+120.01.0129,Kavaklıdere Kozmetik Koll. Şti.,TR,TÜRKİYE,MG1,Boya-Kimya,R1-8,Marmara,R2-2,Zincir Market,R3-4,Pelin R.,BASKILI,MUSTERI,Gaziantep
+120.01.0130,Halkalıtaş Bisküvi San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Zeytin-Zeytinyağı,R1-2,Güneydoğu,R2-6,Zincir Market,R3-4,Nurhan T.,YURTICI,MUSTERI,Ordu
+120.01.0131,Dalyanlı Çay A.Ş.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-1,Ege,R2-6,Toptancı,R3-1,Cem A.,YURTICI,MUSTERI,Kocaeli
+120.01.0132,Nordwind S.p.A.,SE,İSVEÇ,MG2,Boya-Kimya,R1-7,Avrupa,R2-2,İhracatçı,R3-1,Elif S.,YURTDISI,MUSTERI,İsveç
+120.01.0133,Grünfeld Oy,SE,İSVEÇ,MG2,Endüstriyel,R1-2,Avrupa,R2-3,Marka Sahibi,R3-1,Deniz Y.,YURTDISI,MUSTERI,İsveç
+120.01.0134,Fidanlık Kahve A.Ş.,TR,TÜRKİYE,MG1,Bal-Reçel,R1-7,Marmara,R2-1,Toptancı,R3-3,Bahar Ö.,YURTICI,MUSTERI,Balıkesir
+120.01.0135,Dalyanlı Çay Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Endüstriyel,R1-8,Marmara,R2-1,Fason Üretici,R3-3,Selim K.,YURTICI,MUSTERI,Ordu
+120.01.0136,Berkant Tarım Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Süt Ürünleri,R1-3,Akdeniz,R2-3,Zincir Market,R3-2,Nurhan T.,YURTICI,MUSTERI,Ankara
+120.01.0137,Zümrütlü Makine Gıda San. A.Ş.,TR,TÜRKİYE,MG1,Baharat,R1-4,Güneydoğu,R2-4,Fason Üretici,R3-3,Selim K.,YURTICI,MUSTERI,Ankara
+120.01.0138,Vişneli Baharat San. Tic. Ltd. Şti.,TR,TÜRKİYE,MG1,Kozmetik,R1-6,Doğu Anadolu,R2-6,Marka Sahibi,R3-4,Pelin R.,BASKILI,MUSTERI,Ordu
+120.01.0139,Casa Verde Ltd.,RO,ROMANYA,MG2,Süt Ürünleri,R1-6,Avrupa,R2-6,Marka Sahibi,R3-2,Deniz Y.,YURTDISI,MUSTERI,Romanya
+120.01.0140,Narlıcan Gıda A.Ş.,TR,TÜRKİYE,MG1,Gıda,R1-2,Marmara,R2-6,Fason Üretici,R3-3,Selim K.,YURTICI,MUSTERI,Kocaeli
+320.01.0001,Dalyanlı Kimya San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-5,Karadeniz,R2-2,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Konya
+320.01.0002,Ünlüoğlu Kozmetik Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Akdeniz,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,İstanbul
+320.01.0003,Dörtyollu Endüstri Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-4,İç Anadolu,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Kayseri
+320.01.0004,Gümüşdere Kahve San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-6,Karadeniz,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Ankara
+320.01.0005,Aurelia Foods GmbH,DK,DANİMARKA,TG1,Endüstriyel,R1-1,Avrupa,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Dani̇marka
+320.01.0006,İncirli Şekerleme San. ve Tic. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-6,Akdeniz,R2-5,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Mersin
+320.01.0007,Larkspur Oy,DK,DANİMARKA,TG1,Endüstriyel,R1-7,Avrupa,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Dani̇marka
+320.01.0008,Çınaraltı Salça Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-7,Güneydoğu,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Ordu
+320.01.0009,Bluewater S.p.A.,DE,ALMANYA,TG1,Endüstriyel,R1-8,Avrupa,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Almanya
+320.01.0010,Kavaklıdere Çay Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-7,Marmara,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Denizli
+320.01.0011,Akkavak Baharat San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-7,Güneydoğu,R2-5,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Konya
+320.01.0012,Vişneli Turşu Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Akdeniz,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Balıkesir
+320.01.0013,Fidanlık Kozmetik Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-7,Doğu Anadolu,R2-5,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Kayseri
+320.01.0014,Vişneli Boya San. ve Tic. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-5,Güneydoğu,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,İstanbul
+320.01.0015,Larkspur A/S,PL,POLONYA,TG1,Endüstriyel,R1-2,Avrupa,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Polonya
+320.01.0016,Solheim S.p.A.,DE,ALMANYA,TG1,Endüstriyel,R1-5,Avrupa,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Almanya
+320.01.0017,Hisarlı Makine Gıda San. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-5,Karadeniz,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Manisa
+320.01.0018,Brightcan Ltd.,PL,POLONYA,TG1,Endüstriyel,R1-4,Avrupa,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Polonya
+320.01.0019,Mercanlı Salça San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Güneydoğu,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,İzmir
+320.01.0020,Akkavak Zeytin Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Ege,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Tekirdağ
+320.01.0021,Bluewater Trading B.V.,IT,İTALYA,TG1,Endüstriyel,R1-1,Avrupa,R2-2,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,İtalya
+320.01.0022,Meridian S.p.A.,RO,ROMANYA,TG1,Endüstriyel,R1-9,Avrupa,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Romanya
+320.01.0023,Lodoslu Bisküvi A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-4,Akdeniz,R2-5,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Ankara
+320.01.0024,Dalyanlı Boya A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Güneydoğu,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Denizli
+320.01.0025,Bahçelik Makine San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-6,Güneydoğu,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Kayseri
+320.01.0026,Zümrütlü Bal A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-1,Güneydoğu,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Gaziantep
+320.01.0027,Çınaraltı Kozmetik Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-2,Doğu Anadolu,R2-2,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Aydın
+320.01.0028,Vişneli Zeytin Gıda San. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,İç Anadolu,R2-2,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Eskişehir
+320.01.0029,Brightcan Oy,IT,İTALYA,TG1,Endüstriyel,R1-9,Avrupa,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,İtalya
+320.01.0030,Ferahlı Boya San. ve Tic. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-6,Marmara,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,İstanbul
+320.01.0031,Sarıçam Tarım San. ve Tic. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-5,Ege,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Denizli
+320.01.0032,Erikçi Konserve A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,Doğu Anadolu,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Şanlıurfa
+320.01.0033,Sarıçam Turşu Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,Akdeniz,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Denizli
+320.01.0034,Larkspur Foods GmbH,PL,POLONYA,TG1,Endüstriyel,R1-7,Avrupa,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Polonya
+320.01.0035,Vişneli Süt Gıda San. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Güneydoğu,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Manisa
+320.01.0036,Solheim Ltd.,PL,POLONYA,TG1,Endüstriyel,R1-4,Avrupa,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Polonya
+320.01.0037,Dörtyollu Süt Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-7,Marmara,R2-2,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Şanlıurfa
+320.01.0038,Fidanlık Kimya San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Güneydoğu,R2-2,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Kayseri
+320.01.0039,Kavaklıdere Kahve San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,Marmara,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Antalya
+320.01.0040,Gökbayır Boya Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-7,Akdeniz,R2-5,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Eskişehir
+320.01.0041,Vadiköy Zeytin Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-9,İç Anadolu,R2-2,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Konya
+320.01.0042,İncirli Kahve Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-4,Güneydoğu,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Antalya
+320.01.0043,Bozkırlı Kimya Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,Doğu Anadolu,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Manisa
+320.01.0044,Denizcan Kimya San. ve Tic. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,Akdeniz,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Kocaeli
+320.01.0045,Tuzlalı Şekerleme San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-4,Güneydoğu,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Kocaeli
+320.01.0046,Cevizli Şekerleme Gıda San. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-7,Doğu Anadolu,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Gaziantep
+320.01.0047,Tuzlalı Baharat Gıda San. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-9,İç Anadolu,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Bursa
+320.01.0048,Ferahlı Makine San. ve Tic. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,Ege,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Samsun
+320.01.0049,Ferahlı Salça Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-6,Ege,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Mersin
+320.01.0050,Yıldızcan Reçel Gıda San. A.Ş.,TR,TÜRKİYE,TG1,Endüstriyel,R1-4,Doğu Anadolu,R2-1,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Manisa
+320.01.0051,Vişneli Boya Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-1,İç Anadolu,R2-4,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Eskişehir
+320.01.0052,Berkant Ambalaj Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-4,Karadeniz,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Manisa
+320.01.0053,Poyrazlı Ambalaj Koll. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-6,İç Anadolu,R2-3,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Balıkesir
+320.01.0054,Erikçi Turşu San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-8,Karadeniz,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Tekirdağ
+320.01.0055,Toprakçı Salça San. Tic. Ltd. Şti.,TR,TÜRKİYE,TG1,Endüstriyel,R1-3,Marmara,R2-6,Tedarikçi,R3-1,Satın Alma,SATINALMA,TEDARIKCI,Antalya

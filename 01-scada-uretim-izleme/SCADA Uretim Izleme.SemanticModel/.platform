@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "SCADA Uretim Izleme"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "13e6c0f9-016a-588a-8028-2cf1a3952fee"
+  }
+}

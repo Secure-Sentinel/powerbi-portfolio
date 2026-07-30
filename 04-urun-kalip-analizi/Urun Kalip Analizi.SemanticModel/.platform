@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Urun Kalip Analizi"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8f59d951-6eb9-5dfc-a1a5-f7d1d6112656"
+  }
+}

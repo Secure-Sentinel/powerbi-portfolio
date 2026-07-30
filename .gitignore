@@ -1,0 +1,25 @@
+# --- Power BI Desktop çalışma dosyaları -------------------------------------
+# .pbip açıldığında Desktop bunları üretir; makineye özgüdür, depoya girmemeli.
+# Tüm .pbi/ klasörü yok sayılır: localSettings.json, cache.abf,
+# unappliedChanges.json, editorSettings.json ve Desktop'ın eklediği her şey.
+**/.pbi/
+*.abf
+~$*
+
+# --- .pbix bilinçli olarak yok sayılıyor ------------------------------------
+# Bu depoda kaynak biçim .pbip'tir. Ayrıca ikili bir .pbix'in yanlışlıkla
+# (ör. iş yerindeki bir dosyanın kopyası) commit edilmesini engeller.
+# Bu depoya ait, sentetik veriyle kaydedilmiş bir .pbix eklemek isterseniz:
+#     git add -f "01-scada-uretim-izleme/SCADA Uretim Izleme.pbix"
+*.pbix
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- işletim sistemi -------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store

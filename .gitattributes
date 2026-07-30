@@ -1,0 +1,24 @@
+# Metin dosyalarında satır sonu normalizasyonunu Git'e bırak
+* text=auto
+
+# Power BI proje dosyaları metin (diff'lenebilir olsun)
+*.pbip     text
+*.pbir     text
+*.pbism    text
+*.bim      text
+report.json text
+
+# Sentetik veri: üreteç LF yazar, çalışma kopyası da LF kalsın ki
+# veri_uret.py yeniden çalıştırıldığında sahte diff çıkmasın
+*.csv text eol=lf
+
+# İkili
+*.png  binary
+*.jpg  binary
+*.pbix binary
+*.abf  binary
+
+# GitHub dil istatistiklerinde sentetik veri ve üretilmiş JSON sayılmasın
+*.csv          linguist-generated
+model.bim      linguist-generated
+report.json    linguist-generated
