@@ -26,7 +26,7 @@ view. Report labels are in Turkish, as in the original.
 | Is this mould really dead, or still alive under a different shape? | The `BaskaSekilde` variable: last-12-month revenue of the same mould under other shapes |
 | Are we mislabelling a newly opened mould as dormant? | If the first order is younger than 365 days → "New mould — monitor" |
 | What is the average order quantity here? Does raising the MOQ make sense? | Average order quantity = total units ÷ order count |
-| Do miskeyed shapes in the ERP break the report? | The `AD1_Rapor` / `Kalip_Rapor` correction columns |
+| Can we change the shape/mould breakdown without touching the measures? | `AD1_Rapor` / `Kalip_Rapor` are the single point of change |
 
 Decision labels: **Çekirdek** (core) · **Yeni Kalıp — İzle** (new, monitor) ·
 **Atıl — MOQ Arttır** (dormant, raise MOQ) · **Ölü — Çıkarma Adayı** (dead, remove) ·
@@ -41,7 +41,7 @@ Decision labels: **Çekirdek** (core) · **Yeni Kalıp — İzle** (new, monitor
 | **Kalıp** | Matrix over a shape → mould hierarchy: revenue, cumulative share, within-shape share, last-12-month revenue, order count, average order quantity and the decision label |
 | **Baskılı - Kalıp** | The same matrix for the printed-from-stock business line, department filter swapped |
 | **Sipariş Analizi** | Revenue and order-count lines by year, revenue cards per year |
-| **210- 255** | A working page comparing two specific mould diameters (210 and 255) |
+| **153-118** | A hidden working page comparing two specific mould sizes |
 
 ---
 
@@ -119,11 +119,11 @@ SWITCH( TRUE(),
                                                         "Atıl — MOQ Arttır" )
 ```
 
-**3 · A correction column so ERP typos don't break the report.** On some item cards the
-mould and the shape disagree (the same mould entered under two shape names). Instead of
-fixing the source, the report layer pins the mould to the correct shape via `AD1_Rapor` and
-`Kalip_Rapor`, and folds small shapes (hexagonal, octagonal) into a single "Sekilli Kutu"
-heading. Every measure works off those corrected columns.
+**3 · Measures read report columns, not raw ones.** The shape and mould breakdowns hang off
+`AD1_Rapor` and `Kalip_Rapor`. That layer exists so a single edit fixes things when the
+source disagrees with itself — the same mould filed under two shapes, or one box entered
+under two codes. The catalogue in this repository is already unambiguous, so the columns
+currently pass the raw values straight through; regrouping means editing here, not the measures.
 
 ---
 

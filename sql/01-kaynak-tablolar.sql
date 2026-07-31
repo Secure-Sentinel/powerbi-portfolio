@@ -19,7 +19,7 @@ CREATE TABLE erp.TBLSTSABIT (
     GRUP_KODU       varchar(8)   NULL,      -- 01 Mamul / 02 Hammadde / 03 Diğer
     KOD_1           varchar(12)  NULL,
     KOD_2           varchar(12)  NULL,
-    KOD_3           varchar(12)  NULL,      -- kalıp kodu (ör. 245-175, DIA-068)
+    KOD_3           varchar(12)  NULL,      -- kalıp kodu (ör. 153-118, 268-044)
     KOD_4           varchar(12)  NULL,
     KOD_5           varchar(12)  NULL,
     KT_YUKSEKLIK    decimal(9,2) NULL,      -- kutu yüksekliği (mm)

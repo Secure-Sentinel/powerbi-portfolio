@@ -71,22 +71,49 @@ SEKILLER = [
     ('Plaka-Bardak Alti', 'SK16', 1),
 ]
 
-# Kalıp kodları: "<en>-<yükseklik>" / "DIA-<çap>" / "Y<en>-<yükseklik>"
-# (yükseklik mm). Raporda kalıp kırılımının temeli bu koddur.
+# Kalıp kodları: "<en>-<yükseklik>" (mm). Raporda kalıp kırılımının temeli bu koddur.
+# Her şekilden üçer kalıp: küçük / orta / büyük. Böylece katalogda her şekil
+# çeşidi görünür ve tek bir şekle yığılma olmaz.
 KALIPLAR = [
-    ('DIA-050', 'Yuvarlak Kutu', 55), ('DIA-068', 'Yuvarlak-Sivama Kutu', 72),
-    ('DIA-092', 'Yuvarlak Kutu', 99), ('DIA-148', 'Yuvarlak Kutu', 153),
-    ('078-095', 'Yuvarlak Kutu', 100), ('094-050', 'Yuvarlak Kutu', 45),
-    ('120-105', 'Yuvarlak Kutu', 110), ('Y120-105', 'Yuvarlak Kutu', 110),
-    ('145-095', 'Dikdortgen Kutu', 100), ('158-175', 'Yuvarlak Kutu', 180),
-    ('185-115', 'Dikdortgen Kutu', 110), ('210-080', 'Koseli Sivama Kutu', 75),
-    ('210-255', 'Yuvarlak Kutu', 260), ('225-165', 'Kare Kutu', 160),
-    ('245-175', 'Yuvarlak Kutu', 180), ('255-205', 'Yuvarlak Kutu', 210),
-    ('295-165', 'Oval Kutu', 160), ('325-125', 'Tepsi', 120),
-    ('125-085', 'Altıgen Kutu', 90), ('135-145', 'Sekizgen Kutu', 140),
-    ('160-090', 'Kalp Kutu', 85), ('175-205', 'Sekilli Kutu', 200),
-    ('090-065', 'Kapak', 60), ('205-050', 'Plaka-Bardak Alti', 45),
+    ('073-062', 'Yuvarlak Kutu', 67), ('099-084', 'Yuvarlak Kutu', 89),
+    ('153-118', 'Yuvarlak Kutu', 123),
+    ('066-048', 'Yuvarlak-Sivama Kutu', 53), ('088-071', 'Yuvarlak-Sivama Kutu', 76),
+    ('112-096', 'Yuvarlak-Sivama Kutu', 101),
+    ('105-072', 'Kare Kutu', 77), ('132-108', 'Kare Kutu', 113),
+    ('168-142', 'Kare Kutu', 147),
+    ('118-058', 'Dikdortgen Kutu', 63), ('156-082', 'Dikdortgen Kutu', 87),
+    ('192-124', 'Dikdortgen Kutu', 129),
+    ('128-066', 'Oval Kutu', 71), ('164-092', 'Oval Kutu', 97),
+    ('208-136', 'Oval Kutu', 141),
+    ('096-054', 'Altıgen Kutu', 59), ('122-078', 'Altıgen Kutu', 83),
+    ('148-102', 'Altıgen Kutu', 107),
+    ('102-068', 'Sekizgen Kutu', 73), ('138-094', 'Sekizgen Kutu', 99),
+    ('174-128', 'Sekizgen Kutu', 133),
+    ('114-076', 'Sekilli Kutu', 81), ('146-112', 'Sekilli Kutu', 117),
+    ('186-148', 'Sekilli Kutu', 153),
+    ('108-046', 'Kalp Kutu', 51), ('134-064', 'Kalp Kutu', 69),
+    ('172-088', 'Kalp Kutu', 93),
+    ('092-056', 'Koseli Sivama Kutu', 61), ('126-086', 'Koseli Sivama Kutu', 91),
+    ('158-114', 'Koseli Sivama Kutu', 119),
+    ('216-032', 'Tepsi', 37), ('268-044', 'Tepsi', 49),
+    ('312-058', 'Tepsi', 63),
+    ('084-022', 'Kapak', 27), ('116-028', 'Kapak', 33),
+    ('148-034', 'Kapak', 39),
+    ('078-018', 'Sadece Dip', 23), ('106-024', 'Sadece Dip', 29),
+    ('142-030', 'Sadece Dip', 35),
+    ('094-020', 'Sadece Kapak', 25), ('128-026', 'Sadece Kapak', 31),
+    ('162-032', 'Sadece Kapak', 37),
+    ('138-104', 'Tel Mekanizmali Kutu', 109), ('176-132', 'Tel Mekanizmali Kutu', 137),
+    ('224-166', 'Tel Mekanizmali Kutu', 171),
+    ('186-012', 'Plaka-Bardak Alti', 17), ('232-016', 'Plaka-Bardak Alti', 21),
+    ('286-020', 'Plaka-Bardak Alti', 25),
 ]
+
+# Kalıp seçimi şekil ağırlığıyla yapılır: katalogda her şekilden üçer kalıp var
+# ama sipariş/ciro hacmi gerçekteki gibi birkaç şekle yığılır. Aksi hâlde 04'teki
+# kümülatif ciro payı analizi düzleşir ve "çekirdek / atıl / ölü" ayrımı anlamsızlaşır.
+_SEKIL_AGIRLIK = {a: w for a, _, w in SEKILLER}
+KALIP_HAVUZU = [(kayit, _SEKIL_AGIRLIK[kayit[1]] / 3.0) for kayit in KALIPLAR]
 
 KULLANIM_ALANI = [('KA1', 'Gıda'), ('KA2', 'Boya-Kimya'), ('KA3', 'Kozmetik'),
                   ('KA4', 'Hediyelik'), ('KA5', 'Endüstriyel'), ('KA6', 'Bal-Reçel')]
@@ -343,22 +370,24 @@ class Uretec:
 
         mamul_sayisi = max(60, int(330 * self.olcek))
         for i in range(mamul_sayisi):
-            kalip, sekil_varsayilan, yukseklik = rnd.choice(KALIPLAR)
-            # kalıbın doğal şekli çoğunlukla korunur, %15 sapma (ERP gerçeği)
-            if rnd.random() < 0.15:
-                ad1 = agirlikli_sec(rnd, [(a, w) for a, _, w in SEKILLER])
+            # İlk turda her kalıptan bir mamul açılır; böylece katalogda hiçbir
+            # kalıp boş kalmaz ve her şekil tam üç kalıpla görünür. Kalan
+            # mamuller şekil ağırlığına göre dağıtılır (hacim yığılması gerçekçi
+            # olsun). Kalıbın şekli hiç sapmaz: bir kalıp tek bir şekle aittir.
+            if i < len(KALIPLAR):
+                kalip, sekil_varsayilan, yukseklik = KALIPLAR[i]
             else:
-                ad1 = sekil_varsayilan
+                kalip, sekil_varsayilan, yukseklik = agirlikli_sec(rnd, KALIP_HAVUZU)
+            ad1 = sekil_varsayilan
             kod1 = next(k for a, k, _ in SEKILLER if a == ad1)
             ka_kod, ka_ad = rnd.choice(KULLANIM_ALANI)
             b_kod, b_ad = rnd.choice(BASKI_TIPI)
             p_kod, p_ad = rnd.choice(PARCA_SAYISI)
             k_kod, k_ad = rnd.choice(KAPAK_TIPI)
             kod = f'M{i + 1:05d}'
-            olcu = kalip.replace('DIA-', 'Ø')
-            adi = f'{ad1.upper()} {olcu} {b_ad.upper()} {p_ad.upper()}'
+            adi = f'{ad1.upper()} {kalip} {b_ad.upper()} {p_ad.upper()}'
             ing = (f'{ad1.replace("Kutu", "Tin").replace("Sivama", "Drawn")} '
-                   f'{olcu} {b_ad} {p_ad.replace("Parça", "pc")}')
+                   f'{kalip} {b_ad} {p_ad.replace("Parça", "pc")}')
             koli_adet = rnd.choice([12, 24, 48, 60, 100])
             s = {
                 'STOK_KODU': kod, 'STOK_ADI': adi,

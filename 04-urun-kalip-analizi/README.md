@@ -26,7 +26,7 @@ karar aracı.
 | Bir kalıp gerçekten ölü mü, yoksa başka bir şekil altında canlı mı? | `BaskaSekilde` değişkeni: aynı kalıbın diğer şekillerdeki son 12 ay cirosu |
 | Yeni açılan kalıbı yanlışlıkla "atıl" diye işaretlemiyor muyuz? | İlk sipariş tarihi 365 günden yeniyse "Yeni Kalıp — İzle" |
 | Bu kalıpta ortalama sipariş adedi kaç? MOQ arttırmak mantıklı mı? | Ortalama sipariş adedi = toplam miktar ÷ sipariş sayısı |
-| ERP'de şekli yanlış girilmiş kalıpları rapor bozuyor mu? | `AD1_Rapor` / `Kalip_Rapor` düzeltme kolonları |
+| Şekil/kalıp kırılımını ölçüleri bozmadan değiştirebilir miyiz? | `AD1_Rapor` / `Kalip_Rapor` rapor kolonları tek değişim noktası |
 
 Karar etiketleri: **Çekirdek** · **Yeni Kalıp — İzle** · **Atıl — MOQ Arttır** ·
 **Ölü — Çıkarma Adayı** · **Tek Kalıp — Ayrı Değerlendir**
@@ -40,7 +40,7 @@ Karar etiketleri: **Çekirdek** · **Yeni Kalıp — İzle** · **Atıl — MOQ 
 | **Kalıp** | Şekil → kalıp hiyerarşisinde matris: ciro, kümülatif pay, şekil içi pay, son 12 ay cirosu, sipariş sayısı, ortalama sipariş adedi ve karar etiketi |
 | **Baskılı - Kalıp** | Aynı matris, stoktan baskılı satış iş kolu için departman filtresi değiştirilmiş |
 | **Sipariş Analizi** | Yıllara göre ciro ve sipariş sayısı çizgileri, yıl bazında ciro kartları |
-| **210- 255** | Belirli iki kalıp ölçüsünü (210 ve 255 çap) karşılaştıran çalışma sayfası |
+| **153-118** | Belirli iki kalıp ölçüsünü karşılaştıran, gizli tutulan çalışma sayfası |
 
 ---
 
@@ -117,11 +117,11 @@ SWITCH( TRUE(),
                                                         "Atıl — MOQ Arttır" )
 ```
 
-**3 · ERP hatası raporu bozmasın diye düzeltme kolonu.** Bazı stok kartlarında kalıp ile
-şekil uyuşmuyor (aynı kalıp iki farklı şekil adıyla girilmiş). Kaynak veriyi düzeltmek
-yerine rapor katmanında `AD1_Rapor` ve `Kalip_Rapor` kolonları kalıbı doğru şekle
-sabitliyor; küçük şekiller (altıgen, sekizgen) tek bir "Sekilli Kutu" başlığında
-toplanıyor. Ölçüler hep bu düzeltilmiş kolonlar üzerinden çalışıyor.
+**3 · Ölçüler ham kolon yerine rapor kolonu üzerinden çalışıyor.** Şekil ve kalıp
+kırılımları `AD1_Rapor` ve `Kalip_Rapor` kolonlarına bağlı. Bu katman, kaynak veride
+kalıp ile şekil uyuşmadığında ya da aynı kutu iki kodla girildiğinde düzeltmeyi tek
+yerde yapmak için var; bu depodaki katalog tekil olduğu için şu an ham kolonu aynen
+geçiriyor. Kırılımı değiştirmek gerekirse ölçülere dokunmadan burası düzenlenir.
 
 ---
 

@@ -283,8 +283,8 @@
   },
   {
    "name": "50df3aff8eb900489005",
-   "displayName": "210- 255",
-   "filters": "[{\"name\":\"a03e0f64b47004055050\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"STOK\"}},\"Property\":\"Kalip_Rapor\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"STOK\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Kalip_Rapor\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'245-175'\"}}],[{\"Literal\":{\"Value\":\"'255-205'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+   "displayName": "153-118",
+   "filters": "[{\"name\":\"a03e0f64b47004055050\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"STOK\"}},\"Property\":\"Kalip_Rapor\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"STOK\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Kalip_Rapor\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'153-118'\"}}],[{\"Literal\":{\"Value\":\"'099-084'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
    "ordinal": 3,
    "visualContainers": [
     {

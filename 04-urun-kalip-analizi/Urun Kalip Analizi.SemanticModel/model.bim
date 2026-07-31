@@ -1052,7 +1052,7 @@
           {
             "name": "AD1_Rapor",
             "type": "calculated",
-            "expression": "\nVAR k = STOK[KOD_3]\nRETURN\nSWITCH(\n    TRUE(),\n    -- kaynak veride kalıp ile şekil uyuşmadığında şekli kalıba göre sabitler\n    k = \"210-080\", \"Koseli Sivama Kutu\",     -- 3 parçalı köşeli sıvama\n    k = \"DIA-068\", \"Yuvarlak-Sivama Kutu\",   -- 2 parçalı / sıvama\n    k = \"DIA-050\", \"Yuvarlak Kutu\",          -- 3 parçalı\n    k = \"145-095\", \"Dikdortgen Kutu\",              -- kaynak veride belirsiz: iki şekil altında da geçiyor\n    -- küçük şekilleri tek başlık altında topla\n    STOK[AD1] IN { \"Altıgen Kutu\", \"Sekizgen Kutu\" }, \"Sekilli Kutu\",\n    -- Geri kalan olduğu gibi\n    STOK[AD1]\n)",
+            "expression": "\n-- Kalıp ile şekil kaynakta birebir eşleşiyor; düzeltmeye gerek yok.\n-- Şekil çeşitleri de gruplanmaz: katalogdaki 16 şeklin tamamı ayrı görünür.\nSTOK[AD1]",
             "dataType": "automatic",
             "summarizeBy": "none",
             "lineageTag": "013a5781-985a-4732-b648-47073c5a3533",
@@ -1080,7 +1080,7 @@
           {
             "name": "KOD3_New",
             "type": "calculated",
-            "expression": "\nVAR k = STOK[KOD_3]\nRETURN\nSWITCH(\n    TRUE(),\n    k = \"210-080\", \"Koseli Sivama Kutu\",    -- 3 parçalı köşeli sıvama\n    k = \"DIA-068\", \"Yuvarlak-Sivama Kutu\",  -- 2 parçalı / sıvama\n    k = \"DIA-050\", \"Yuvarlak Kutu\",          -- 3 parçalı\n    k = \"145-095\", \"Kare Kutu\",              -- kaynak veride belirsiz\n    \n    -- Eşleşmeyen kodlar için varsayılan olarak mevcut AD1 değerini getirir\n    STOK[AD1]\n)",
+            "expression": "\n-- Kalıp ile şekil kaynakta birebir eşleşiyor; düzeltmeye gerek yok.\nSTOK[AD1]",
             "dataType": "automatic",
             "summarizeBy": "none",
             "lineageTag": "c323bc41-9be5-46f4-82ac-01c420e55ca3",
@@ -1094,7 +1094,7 @@
           {
             "name": "Kalip_Rapor",
             "type": "calculated",
-            "expression": "\nSWITCH(\n    STOK[KOD_3],\n    \"Y120-105\", \"120-105\",   -- Y120-105 ile 120-105 aynı kutu, tek koda indirilir\n    STOK[KOD_3]\n)",
+            "expression": "\n-- Kalıp kodları kaynakta tekil; birleştirmeye gerek yok.\nSTOK[KOD_3]",
             "dataType": "automatic",
             "summarizeBy": "none",
             "lineageTag": "6229eb96-6a8b-492f-af46-bf4257c24d21",
