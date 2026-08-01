@@ -46,6 +46,19 @@ with the department filter swapped. Report labels are in Turkish, as in the orig
 
 ---
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Revenue](docs/img/02-ciro.png) | ![Account](docs/img/03-cari.png) |
+| **Ciro** — YTD vs LYTD KPI grid | **Cari** — single customer profile |
+
+![Receivables](docs/img/04-alacak-borc.png)
+
+**Alacak - Borç** — customer payables and receivables side by side, split by balance direction.
+
+---
+
 ## Data model
 
 A classic star: two fact tables (`SIPARIS` order lines, `CIRO` invoice lines) share the
@@ -110,22 +123,14 @@ label works as a slicer.
 
 ---
 
+## Data pipeline
+
+A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
+
+---
+
 ## Running it
 
 Open `Departman Ticaret Analizi.pbip` in Power BI Desktop and hit **Refresh**.
 Details in the [root README](../README.en.md#opening-the-reports).
 
-## Data pipeline
-
-A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
-
-## Screenshots
-
-| | |
-|---|---|
-| ![Revenue](docs/img/02-ciro.png) | ![Account](docs/img/03-cari.png) |
-| **Ciro** — YTD vs LYTD KPI grid | **Cari** — single customer profile |
-| ![Receivables](docs/img/04-alacak-borc.png) | ![Mould](docs/img/05-kalip.png) |
-| **Alacak - Borç** | **Kalıp** — revenue per can |
-| ![Quarters](docs/img/06-ceyrekler.png) | ![Order details](docs/img/07-siparis-detaylari.png) |
-| **Çeyrekler** — measure-driven matrix | **Sipariş Detayları** |

@@ -45,6 +45,15 @@ Decision labels: **Çekirdek** (core) · **Yeni Kalıp — İzle** (new, monitor
 
 ---
 
+## Screenshots
+
+| | |
+|---|---|
+| ![BASKILI mould](docs/img/02-baskili-kalip.png) | ![Order analysis](docs/img/03-siparis-analizi.png) |
+| **Baskılı - Kalıp** — printed-from-stock breakdown | **Sipariş Analizi** — revenue/orders by year |
+
+---
+
 ## Data model
 
 Small and purpose-built: two facts (`SIPARIS` for units, `CIRO` for value), one product
@@ -127,6 +136,12 @@ currently pass the raw values straight through; regrouping means editing here, n
 
 ---
 
+## Data pipeline
+
+A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
+
+---
+
 ## Running it
 
 Open `Urun Kalip Analizi.pbip` in Power BI Desktop and hit **Refresh**.
@@ -136,13 +151,3 @@ Details in the [root README](../README.en.md#opening-the-reports).
 > relative to the day you open the report. The synthetic data is generated around `--bugun`,
 > so keeping the two on the same date keeps the labels meaningful.
 
-## Data pipeline
-
-A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
-
-## Screenshots
-
-| | |
-|---|---|
-| ![BASKILI mould](docs/img/02-baskili-kalip.png) | ![Order analysis](docs/img/03-siparis-analizi.png) |
-| **Baskılı - Kalıp** — printed-from-stock breakdown | **Sipariş Analizi** — revenue/orders by year |

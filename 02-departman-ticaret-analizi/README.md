@@ -46,6 +46,19 @@ değiştirilmiş kopyalarıdır.
 
 ---
 
+## Ekran görüntüleri
+
+| | |
+|---|---|
+| ![Ciro](docs/img/02-ciro.png) | ![Cari](docs/img/03-cari.png) |
+| **Ciro** — YTD vs LYTD KPI ızgarası | **Cari** — tek müşteri profili |
+
+![Alacak-Borç](docs/img/04-alacak-borc.png)
+
+**Alacak - Borç** — müşteri borç ve alacaklarının karşılaştırmalı dökümü; bakiye yönüne göre iki tarafa ayrılır.
+
+---
+
 ## Veri modeli
 
 Klasik yıldız: iki olgu tablosu (`SIPARIS` sipariş satırları, `CIRO` fatura satırları) ortak
@@ -108,22 +121,14 @@ katkısı" ölçüsü tek `CALCULATE` ile yazılabiliyor ve dilimleyicide filtre
 
 ---
 
+## Veri hattı
+
+Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
+
+---
+
 ## Nasıl açılır
 
 `Departman Ticaret Analizi.pbip` dosyasını Power BI Desktop ile açın, **Yenile**'ye basın.
 Ayrıntı: [ana README](../README.md#nasıl-açılır).
 
-## Veri hattı
-
-Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
-
-## Ekran görüntüleri
-
-| | |
-|---|---|
-| ![Ciro](docs/img/02-ciro.png) | ![Cari](docs/img/03-cari.png) |
-| **Ciro** — YTD vs LYTD KPI ızgarası | **Cari** — tek müşteri profili |
-| ![Alacak-Borç](docs/img/04-alacak-borc.png) | ![Kalıp](docs/img/05-kalip.png) |
-| **Alacak - Borç** | **Kalıp** — kutu başı ciro |
-| ![Çeyrekler](docs/img/06-ceyrekler.png) | ![Sipariş detayları](docs/img/07-siparis-detaylari.png) |
-| **Çeyrekler** — ölçüyle sürülen matris | **Sipariş Detayları** |

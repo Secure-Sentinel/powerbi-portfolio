@@ -1,8 +1,11 @@
 # Ekran görüntüsü kontrol listesi
 
-README'ler aşağıdaki dosya adlarına referans veriyor. ✅ işaretli olanlar gerçek ekran
-görüntüsüyle dolduruldu; kalanlar hâlâ yer tutucu. Power BI Desktop'ta raporu açıp
-**aynı dosya adıyla üzerine yazın**.
+✅ işaretli sayfalar çekildi ve README galerisinde yer alıyor. İşaretsiz olanlar henüz
+çekilmedi; yer tutucu görseller depodan kaldırıldığı için README'de de görünmüyorlar.
+
+Bir sayfayı eklemek için: Power BI Desktop'ta raporu açın, sayfayı aşağıdaki dosya
+adıyla `docs/img/` altına kaydedin ve README.md ile README.en.md'deki galeri bölümüne
+bir satır ekleyin.
 
 Öneriler:
 - Raporu **Görünüm → Sayfa görünümü → Gerçek boyut** ile açıp sayfanın tamamını alın.

@@ -9,13 +9,19 @@
   <b>🇹🇷 Türkçe</b>
 </p>
 
-Kurgusal bir üretim işletmesinin **üretim izleme**, **ticaret**, **satın alma**
-ve **ürün portföyü** raporlarından oluşan dört Power BI projesi. Hepsi ERP verisiyle çalışan
-gerçek raporların yapısıdır; bu depoda **tamamen sentetik veriyle** yayınlanmıştır.
+Bir imalat işletmesinde günlük kullanımdaki dört Power BI raporunun yapısı: üretim sahasında
+ekranlarda dönen **üretim izleme**, departman bazlı **ticaret analizi**, **satın alma** takibi
+ve **ürün portföyü** sınıflandırması. Toplam **23 sayfa · 339 görsel · 130 DAX ölçüsü**.
 
-> **Test Firma A.Ş.** kurgusal bir firmadır. Bu depodaki müşteri, tedarikçi,
-> sipariş, fiyat ve üretim kayıtlarının tamamı `tools/veri_uret.py` tarafından üretilmiştir;
-> hiçbir gerçek firmaya ait veri içermez. Fabrika yerleşim çizimleri de kurgudur.
+**Neyi gösteriyor:** ERP verisi üzerinde yıldız şeması kurma · zaman zekâsı ve kümülatif pay
+hesapları · `ISINSCOPE` ile hiyerarşi seviyesine duyarlı ölçüler · veri hattının SQL karşılığı ·
+`.pbip` metin formatıyla sürüm kontrolü · yeniden üretilebilir sentetik veri.
+
+**Denemek için** depoyu klonlayın, bir `.pbip` dosyasını açın ve **Yenile**'ye basın — veri
+GitHub üzerinden okunur, ayrıca kurulum gerekmez.
+
+> Raporların yapısı gerçek, verisi değil. **Test Firma A.Ş.** kurgusaldır; buradaki müşteri,
+> tedarikçi, sipariş, fiyat ve üretim kayıtlarının tamamı `tools/veri_uret.py` ile üretilmiştir.
 
 ---
 
@@ -23,7 +29,7 @@ gerçek raporların yapısıdır; bu depoda **tamamen sentetik veriyle** yayınl
 
 | | Proje | Ne yapıyor | Sayfa · Görsel · Ölçü |
 |---|---|---|---|
-| 🏭 | **[SCADA Üretim İzleme](01-scada-uretim-izleme/)** | Fabrika yerleşim planı üzerinde 48 makinenin anlık durumu: ne üretiyor, kaç kişiyle, hangi arızada | 6 · 175 · 16 |
+| 🏭 | **[SCADA Üretim İzleme](01-scada-uretim-izleme/)** | Fabrika yerleşim planı üzerinde 48 makinenin anlık durumu: ne üretiyor, kaç kişiyle, hangi arızada | 6 · 156 · 16 |
 | 📈 | **[Departman Bazlı Ticaret Analizi](02-departman-ticaret-analizi/)** | Sipariş–ciro–cari üçlüsünün departman şablonu: müşteri, kalıp, çeyrek ve tahsilat kırılımları | 8 · 109 · 84 |
 | 🛒 | **[Satın Alma Analizi](03-satin-alma-analizi/)** | Açık satın alma siparişleri, termin gecikmeleri ve tedarikçi bakiyeleri | 5 · 51 · 16 |
 | 📦 | **[Ürün & Kalıp Analizi](04-urun-kalip-analizi/)** | Ürün kataloğunu kümülatif ciro payına göre sınıflandırıp robot yatırımına aday kalıpları çıkarır | 4 · 23 · 14 |

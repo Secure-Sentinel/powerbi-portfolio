@@ -46,6 +46,19 @@ Durum renkleri: 🟢 İşlemde · 🔴 Arıza/Duruş · 🟡 Hazırlık · 🔵 
 
 ---
 
+## Ekran görüntüleri
+
+| | |
+|---|---|
+| ![Zemin kat pres](docs/img/02-zemin-kat-pres.png) | ![Matbaa ve kesim](docs/img/03-matbaa-kesim.png) |
+| **Zemin Kat -I** — pres ve kesim hatları | **Zemin Kat - II** — matbaa |
+
+![Arızalar](docs/img/05-arizalar.png)
+
+**Arızalar** — arıza tipi kırılımı ve kayıt listesi; istasyon ve tarih aralığına göre filtrelenir.
+
+---
+
 ## Veri modeli
 
 ```mermaid
@@ -104,6 +117,12 @@ görseli yerine plan üzerinde fiziksel yerinde durur.
 
 ---
 
+## Veri hattı
+
+Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
+
+---
+
 ## Nasıl açılır
 
 ```bash
@@ -116,19 +135,3 @@ Ayrıntı ve çevrimdışı kullanım için [ana README](../README.md#nasıl-aç
 > Bu ekran "şu an"ı gösterdiği için sentetik veri, üretildiği ana göre konumlanır.
 > `--bugun` parametresini değiştirip yeniden üretirseniz anlık durumlar da güncellenir.
 
-## Veri hattı
-
-Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
-
-## Ekran görüntüleri
-
-| | |
-|---|---|
-| ![Zemin kat pres](docs/img/02-zemin-kat-pres.png) | ![Matbaa ve kesim](docs/img/03-matbaa-kesim.png) |
-| **Zemin Kat -I** — pres ve kesim hatları | **Zemin Kat - II** — matbaa |
-| ![Montaj](docs/img/04-montaj-1kat.png) | ![Arızalar](docs/img/05-arizalar.png) |
-| **1.Kat** — montaj hatları | **Arızalar** — Pareto ve kayıt listesi |
-
-![Tooltip detay](docs/img/06-tooltip-detay.png)
-
-**Tooltip_Detay** — makine kartına gelince açılan iş emri detayı ve DAX ile üretilmiş işçi dağılım şeridi.

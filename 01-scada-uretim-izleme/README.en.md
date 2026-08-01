@@ -48,6 +48,19 @@ Status colours: 🟢 running · 🔴 fault/stopped · 🟡 setup · 🔵 idle (q
 
 ---
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Ground floor press](docs/img/02-zemin-kat-pres.png) | ![Printing and cutting](docs/img/03-matbaa-kesim.png) |
+| **Zemin Kat -I** — press and cutting lines | **Zemin Kat - II** — printing |
+
+![Faults](docs/img/05-arizalar.png)
+
+**Arızalar** — fault-type breakdown and log, filterable by station and date range.
+
+---
+
 ## Data model
 
 ```mermaid
@@ -105,6 +118,12 @@ in a matrix.
 
 ---
 
+## Data pipeline
+
+A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
+
+---
+
 ## Running it
 
 ```bash
@@ -117,19 +136,3 @@ See the [root README](../README.en.md#opening-the-reports) for offline use.
 > Because this screen shows "now", the synthetic data is positioned around the moment it
 > was generated. Regenerate with a different `--bugun` and the live states move with it.
 
-## Data pipeline
-
-A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
-
-## Screenshots
-
-| | |
-|---|---|
-| ![Ground floor press](docs/img/02-zemin-kat-pres.png) | ![Printing and cutting](docs/img/03-matbaa-kesim.png) |
-| **Zemin Kat -I** — press and cutting lines | **Zemin Kat - II** — printing |
-| ![Assembly](docs/img/04-montaj-1kat.png) | ![Faults](docs/img/05-arizalar.png) |
-| **1.Kat** — assembly lines | **Arızalar** — Pareto and fault log |
-
-![Tooltip detail](docs/img/06-tooltip-detay.png)
-
-**Tooltip_Detay** — work-order detail on hover, with the DAX-rendered operator-mix strip.

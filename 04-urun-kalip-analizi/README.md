@@ -44,6 +44,15 @@ Karar etiketleri: **Çekirdek** · **Yeni Kalıp — İzle** · **Atıl — MOQ 
 
 ---
 
+## Ekran görüntüleri
+
+| | |
+|---|---|
+| ![BASKILI kalıp](docs/img/02-baskili-kalip.png) | ![Sipariş analizi](docs/img/03-siparis-analizi.png) |
+| **Baskılı - Kalıp** — stoktan baskılı satış kırılımı | **Sipariş Analizi** — yıllara göre ciro/sipariş |
+
+---
+
 ## Veri modeli
 
 Küçük ve amaca özel bir model: iki olgu (`SIPARIS` adet tarafı, `CIRO` tutar tarafı), tek
@@ -125,6 +134,12 @@ geçiriyor. Kırılımı değiştirmek gerekirse ölçülere dokunmadan burası 
 
 ---
 
+## Veri hattı
+
+Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
+
+---
+
 ## Nasıl açılır
 
 `Urun Kalip Analizi.pbip` dosyasını Power BI Desktop ile açın, **Yenile**'ye basın.
@@ -134,13 +149,3 @@ Ayrıntı: [ana README](../README.md#nasıl-açılır).
 > güne göre hesaplanır. Sentetik veri de `--bugun` parametresine göre üretildiği için
 > ikisini aynı tarihte tutmak etiketleri anlamlı kılar.
 
-## Veri hattı
-
-Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
-
-## Ekran görüntüleri
-
-| | |
-|---|---|
-| ![BASKILI kalıp](docs/img/02-baskili-kalip.png) | ![Sipariş analizi](docs/img/03-siparis-analizi.png) |
-| **Baskılı - Kalıp** — stoktan baskılı satış kırılımı | **Sipariş Analizi** — yıllara göre ciro/sipariş |

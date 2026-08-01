@@ -38,6 +38,19 @@ sabitlenirken bütçe TL üzerinden takip ediliyor.
 
 ---
 
+## Ekran görüntüleri
+
+| | |
+|---|---|
+| ![Açık siparişler](docs/img/02-acik-siparisler.png) | ![Tedarikçi bakiye](docs/img/03-tedarikci-bakiye.png) |
+| **Açık Siparişler** — termine kalan gün | **Tedarikçi Bakiye Durumu** |
+
+![Satın alım listesi](docs/img/04-satin-alim-listesi.png)
+
+**Satın Alım Listesi** — gerçekleşen mal kabuller.
+
+---
+
 ## Veri modeli
 
 Sipariş (`SATINALMA_SIPARIS`) ve gerçekleşen alım (`SATIN_ALMA`) iki ayrı olgu tablosu;
@@ -97,22 +110,14 @@ sayıyı verir.
 
 ---
 
+## Veri hattı
+
+Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
+
+---
+
 ## Nasıl açılır
 
 `Satin Alma Analizi.pbip` dosyasını Power BI Desktop ile açın, **Yenile**'ye basın.
 Ayrıntı: [ana README](../README.md#nasıl-açılır).
 
-## Veri hattı
-
-Raporun okuduğu tabloların sadeleştirilmiş SQL karşılığı: [`../sql/`](../sql/)
-
-## Ekran görüntüleri
-
-| | |
-|---|---|
-| ![Açık siparişler](docs/img/02-acik-siparisler.png) | ![Tedarikçi bakiye](docs/img/03-tedarikci-bakiye.png) |
-| **Açık Siparişler** — termine kalan gün | **Tedarikçi Bakiye Durumu** |
-
-![Satın alım listesi](docs/img/04-satin-alim-listesi.png)
-
-**Satın Alım Listesi** — gerçekleşen mal kabuller.

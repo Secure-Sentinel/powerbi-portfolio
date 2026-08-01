@@ -40,6 +40,19 @@ Report labels are in Turkish, as in the original.
 
 ---
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Open orders](docs/img/02-acik-siparisler.png) | ![Supplier balances](docs/img/03-tedarikci-bakiye.png) |
+| **Açık Siparişler** — days to due | **Tedarikçi Bakiye Durumu** |
+
+![Purchase list](docs/img/04-satin-alim-listesi.png)
+
+**Satın Alım Listesi** — actual goods receipts.
+
+---
+
 ## Data model
 
 Purchase orders (`SATINALMA_SIPARIS`) and actual receipts (`SATIN_ALMA`) are two separate
@@ -98,22 +111,14 @@ rather than relying on a report filter — the card returns the same number on a
 
 ---
 
+## Data pipeline
+
+A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
+
+---
+
 ## Running it
 
 Open `Satin Alma Analizi.pbip` in Power BI Desktop and hit **Refresh**.
 Details in the [root README](../README.en.md#opening-the-reports).
 
-## Data pipeline
-
-A simplified SQL equivalent of the tables this report reads: [`../sql/`](../sql/)
-
-## Screenshots
-
-| | |
-|---|---|
-| ![Open orders](docs/img/02-acik-siparisler.png) | ![Supplier balances](docs/img/03-tedarikci-bakiye.png) |
-| **Açık Siparişler** — days to due | **Tedarikçi Bakiye Durumu** |
-
-![Purchase list](docs/img/04-satin-alim-listesi.png)
-
-**Satın Alım Listesi** — actual goods receipts.
